@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27"]
-    y-axis "PR 수" 0 --> 39
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 38]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 0, 18]
+    y-axis "PR 수" 0 --> 40
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 39]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 0, 20]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-01 17:42 UTC_
+_마지막 업데이트: 2026-05-01 21:56 UTC_
 
 ### Offline Team A
 
@@ -29,7 +29,7 @@ _마지막 업데이트: 2026-05-01 17:42 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [16](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [17](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 강정석 | [@rapsealk](https://github.com/rapsealk) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Arapsealk%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Arapsealk%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
@@ -77,6 +77,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟢 open (2026-05-01)
 - [#66211 Align Dag capitalization from "DAG" to "Dag" in core_api](https://github.com/apache/airflow/pull/66211) — 🟢 open (2026-05-01)
 - [#66200 Align Dag capitalization from "DAG" to "Dag" for airflow-core/src/airflow/api/](https://github.com/apache/airflow/pull/66200) — 🟣 merged (2026-05-01)
 - [#66163 i18n(ko): add missing translations(Apr 30)](https://github.com/apache/airflow/pull/66163) — 🟢 open (2026-04-30)
@@ -96,6 +97,8 @@ _없음_
 
 **리뷰한 PR**
 
+- [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟢 open (2026-05-01)
+- [#66149 Fix copied text from Rendered Templates tab including line numbers](https://github.com/apache/airflow/pull/66149) — 🔴 closed (2026-04-30)
 - [#66112 Align Dag capitalization from "DAG" to "Dag" for airflow-ctl/](https://github.com/apache/airflow/pull/66112) — 🟣 merged (2026-04-29)
 - [#66086 i18n(Ko): add missing translation in dag.json (Apr 29)](https://github.com/apache/airflow/pull/66086) — 🟣 merged (2026-04-29)
 - [#66078 i18n(Ko): translate no matches message](https://github.com/apache/airflow/pull/66078) — 🟣 merged (2026-04-29)
