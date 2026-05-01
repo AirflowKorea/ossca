@@ -18,7 +18,7 @@ README = ROOT / "README.md"
 
 REPO = "apache/airflow"
 SINCE = "2026-04-22"
-CHART_START = "2026-01-01"
+CHART_START = "2026-04-22"
 PER_PAGE = 100
 API = "https://api.github.com/search/issues"
 SLEEP = 2.0
@@ -116,28 +116,33 @@ def upsert_history(date: str, authored: int, reviewed: int) -> list[dict]:
     return sorted_rows
 
 
+def monday_of(d: date) -> date:
+    return d - timedelta(days=d.weekday())
+
+
 def build_chart(history: list[dict]) -> str:
-    start = date.fromisoformat(CHART_START)
-    end = datetime.now(timezone.utc).date()
-    if end < start:
-        end = start
+    chart_start = date.fromisoformat(CHART_START)
+    first_monday = (
+        chart_start if chart_start.weekday() == 0
+        else chart_start + timedelta(days=(7 - chart_start.weekday()))
+    )
+    last_monday = monday_of(datetime.now(timezone.utc).date())
+    if last_monday < first_monday:
+        last_monday = first_monday
 
     hist_map = {
         r["date"]: (int(r["authored"]), int(r["reviewed"])) for r in history
     }
     last_a = last_r = 0
     points: list[tuple[date, int, int]] = []
-    d = start
-    while d <= end:
+    d = first_monday
+    while d <= last_monday:
         if d.isoformat() in hist_map:
             last_a, last_r = hist_map[d.isoformat()]
         points.append((d, last_a, last_r))
-        d += timedelta(days=1)
+        d += timedelta(days=7)
 
-    labels = [
-        f'"{p.strftime("%m-%d")}"' if (p.day == 1 or p.weekday() == 0) else '""'
-        for p, _, _ in points
-    ]
+    labels = [f'"{p.strftime("%m-%d")}"' for p, _, _ in points]
     authored = [a for _, a, _ in points]
     reviewed = [r for _, _, r in points]
     y_max = max(max(authored, default=0), max(reviewed, default=0), 1) + 1
@@ -145,15 +150,15 @@ def build_chart(history: list[dict]) -> str:
     return "\n".join([
         "```mermaid",
         "xychart-beta",
-        '    title "Apache Airflow PR 누적 추이 (2026-01-01~)"',
+        f'    title "Apache Airflow PR 누적 추이 ({SINCE}~)"',
         f'    x-axis [{", ".join(labels)}]',
         f'    y-axis "PR 수" 0 --> {y_max}',
         f'    line [{", ".join(map(str, authored))}]',
         f'    line [{", ".join(map(str, reviewed))}]',
         "```",
         "",
-        "> 첫 번째 라인: **작성 PR 누계** · 두 번째 라인: **리뷰 PR 누계**. "
-        f"측정 시작({SINCE}) 이전 구간은 0으로 표시.",
+        "> 점은 **매주 월요일 기준 누계** (한 주 내 변동은 해당 주 점에 흡수). "
+        "첫 번째 라인: **작성 PR**, 두 번째 라인: **리뷰 PR**.",
     ])
 
 
@@ -249,8 +254,8 @@ def main() -> int:
 
     block, total_authored, total_reviewed = build_block(token)
 
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    history = upsert_history(today, total_authored, total_reviewed)
+    week_key = monday_of(datetime.now(timezone.utc).date()).isoformat()
+    history = upsert_history(week_key, total_authored, total_reviewed)
     chart = build_chart(history)
 
     update_readme(chart + "\n\n" + block)
