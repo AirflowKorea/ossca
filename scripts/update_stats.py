@@ -13,12 +13,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "2026"
-HISTORY = ROOT / "data" / "history.csv"
 README = ROOT / "README.md"
 
 REPO = "apache/airflow"
 SINCE = "2026-04-22"
-CHART_START = "2026-04-22"
+CHART_START = "2026-03-01"
 PER_PAGE = 100
 API = "https://api.github.com/search/issues"
 SLEEP = 2.0
@@ -99,47 +98,27 @@ def read_members(csv_path: Path) -> list[dict]:
         return [row for row in csv.DictReader(f) if row.get("name")]
 
 
-def upsert_history(date: str, authored: int, reviewed: int) -> list[dict]:
-    rows: dict[str, dict] = {}
-    if HISTORY.exists():
-        with HISTORY.open(encoding="utf-8") as f:
-            for r in csv.DictReader(f):
-                if r.get("date"):
-                    rows[r["date"]] = r
-    rows[date] = {"date": date, "authored": str(authored), "reviewed": str(reviewed)}
-    sorted_rows = [rows[k] for k in sorted(rows)]
-    HISTORY.parent.mkdir(parents=True, exist_ok=True)
-    with HISTORY.open("w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["date", "authored", "reviewed"])
-        w.writeheader()
-        w.writerows(sorted_rows)
-    return sorted_rows
-
-
 def monday_of(d: date) -> date:
     return d - timedelta(days=d.weekday())
 
 
-def build_chart(history: list[dict]) -> str:
+def build_chart(authored_prs: list[dict], reviewed_prs: list[dict]) -> str:
     chart_start = date.fromisoformat(CHART_START)
-    first_monday = (
-        chart_start if chart_start.weekday() == 0
-        else chart_start + timedelta(days=(7 - chart_start.weekday()))
-    )
-    last_monday = monday_of(datetime.now(timezone.utc).date())
-    if last_monday < first_monday:
-        last_monday = first_monday
+    days_until_mon = (7 - chart_start.weekday()) % 7
+    first_monday = chart_start + timedelta(days=days_until_mon or 7)
+    today = datetime.now(timezone.utc).date()
+    last_monday = monday_of(today)
 
-    hist_map = {
-        r["date"]: (int(r["authored"]), int(r["reviewed"])) for r in history
-    }
-    last_a = last_r = 0
-    points: list[tuple[date, int, int]] = []
+    a_created = [p["created_at"][:10] for p in authored_prs]
+    r_created = [p["created_at"][:10] for p in reviewed_prs]
+
+    points: list[tuple[date, int, int]] = [(chart_start, 0, 0)]
     d = first_monday
     while d <= last_monday:
-        if d.isoformat() in hist_map:
-            last_a, last_r = hist_map[d.isoformat()]
-        points.append((d, last_a, last_r))
+        cutoff = (today if d == last_monday else d + timedelta(days=6)).isoformat()
+        a = sum(1 for x in a_created if x <= cutoff)
+        r = sum(1 for x in r_created if x <= cutoff)
+        points.append((d, a, r))
         d += timedelta(days=7)
 
     labels = [f'"{p.strftime("%m-%d")}"' for p, _, _ in points]
@@ -150,26 +129,26 @@ def build_chart(history: list[dict]) -> str:
     return "\n".join([
         "```mermaid",
         "xychart-beta",
-        f'    title "Apache Airflow PR 누적 추이 ({SINCE}~)"',
+        f'    title "Apache Airflow PR 누적 추이 ({CHART_START}~)"',
         f'    x-axis [{", ".join(labels)}]',
         f'    y-axis "PR 수" 0 --> {y_max}',
         f'    line [{", ".join(map(str, authored))}]',
         f'    line [{", ".join(map(str, reviewed))}]',
         "```",
         "",
-        "> 점은 **매주 월요일 기준 누계** (한 주 내 변동은 해당 주 점에 흡수). "
+        "> 매주 월요일 시점의 PR 누계 (마지막 점은 오늘 시점). "
         "첫 번째 라인: **작성 PR**, 두 번째 라인: **리뷰 PR**.",
     ])
 
 
-def build_block(token: str | None) -> tuple[str, int, int]:
+def build_block(token: str | None) -> tuple[str, list[dict], list[dict]]:
     out: list[str] = []
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     out.append(f"_마지막 업데이트: {now}_")
     out.append("")
 
-    total_authored = 0
-    total_reviewed = 0
+    all_authored: list[dict] = []
+    all_reviewed: list[dict] = []
 
     for team_name, csv_path in TEAMS:
         members = read_members(csv_path)
@@ -198,8 +177,8 @@ def build_block(token: str | None) -> tuple[str, int, int]:
                 reviewed = []
             time.sleep(SLEEP)
 
-            total_authored += len(authored)
-            total_reviewed += len(reviewed)
+            all_authored.extend(authored)
+            all_reviewed.extend(reviewed)
 
             rows.append(
                 f"| {name} | [@{user}]({gh_url}) "
@@ -230,7 +209,7 @@ def build_block(token: str | None) -> tuple[str, int, int]:
         out.append("</details>")
         out.append("")
 
-    return "\n".join(out).rstrip() + "\n", total_authored, total_reviewed
+    return "\n".join(out).rstrip() + "\n", all_authored, all_reviewed
 
 
 def update_readme(block: str) -> None:
@@ -252,15 +231,12 @@ def main() -> int:
     if not token:
         print("경고: GITHUB_TOKEN 미설정 — rate limit 가능", file=sys.stderr)
 
-    block, total_authored, total_reviewed = build_block(token)
-
-    week_key = monday_of(datetime.now(timezone.utc).date()).isoformat()
-    history = upsert_history(week_key, total_authored, total_reviewed)
-    chart = build_chart(history)
+    block, all_authored, all_reviewed = build_block(token)
+    chart = build_chart(all_authored, all_reviewed)
 
     update_readme(chart + "\n\n" + block)
     print(
-        f"README.md 갱신 완료. (작성 누계 {total_authored}, 리뷰 누계 {total_reviewed})"
+        f"README.md 갱신 완료. (작성 누계 {len(all_authored)}, 리뷰 누계 {len(all_reviewed)})"
     )
     return 0
 
