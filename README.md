@@ -8,7 +8,18 @@
 - 각 팀의 **상세 PR 목록**을 펼치면 PR 제목·상태·생성일이 함께 표시됩니다. 상태: 🟢 open / 🟣 merged / 🔴 closed.
 
 <!-- STATS:START -->
-_마지막 업데이트: 2026-05-01 16:35 UTC_
+```mermaid
+xychart-beta
+    title "Apache Airflow PR 누적 추이 (2026-04-22~)"
+    x-axis ["05-01"]
+    y-axis "PR 수" 0 --> 39
+    line [38]
+    line [18]
+```
+
+> 첫 번째 라인: **작성 PR 누계** · 두 번째 라인: **리뷰 PR 누계**
+
+_마지막 업데이트: 2026-05-01 17:00 UTC_
 
 ### Offline Team A
 
@@ -66,7 +77,7 @@ _없음_
 **작성한 PR**
 
 - [#66211 Align Dag capitalization from "DAG" to "Dag" in core_api](https://github.com/apache/airflow/pull/66211) — 🟢 open (2026-05-01)
-- [#66200 Align Dag capitalization from "DAG" to "Dag" for airflow-core/src/airflow/api/](https://github.com/apache/airflow/pull/66200) — 🟢 open (2026-05-01)
+- [#66200 Align Dag capitalization from "DAG" to "Dag" for airflow-core/src/airflow/api/](https://github.com/apache/airflow/pull/66200) — 🟣 merged (2026-05-01)
 - [#66163 i18n(ko): add missing translations(Apr 30)](https://github.com/apache/airflow/pull/66163) — 🟢 open (2026-04-30)
 - [#66155 Align Dag capitalization from "DAG" to "Dag" for providers/google/](https://github.com/apache/airflow/pull/66155) — 🟣 merged (2026-04-30)
 - [#66153 Align Dag capitalization from "DAG" to "Dag" for providers/apache/](https://github.com/apache/airflow/pull/66153) — 🟣 merged (2026-04-30)
