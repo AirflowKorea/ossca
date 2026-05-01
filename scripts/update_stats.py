@@ -8,7 +8,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,6 +18,7 @@ README = ROOT / "README.md"
 
 REPO = "apache/airflow"
 SINCE = "2026-04-22"
+CHART_START = "2026-01-01"
 PER_PAGE = 100
 API = "https://api.github.com/search/issues"
 SLEEP = 2.0
@@ -116,23 +117,43 @@ def upsert_history(date: str, authored: int, reviewed: int) -> list[dict]:
 
 
 def build_chart(history: list[dict]) -> str:
-    if not history:
-        return "_아직 기록된 데이터가 없습니다._"
-    dates = [f'"{r["date"][5:]}"' for r in history]
-    authored = [int(r["authored"]) for r in history]
-    reviewed = [int(r["reviewed"]) for r in history]
+    start = date.fromisoformat(CHART_START)
+    end = datetime.now(timezone.utc).date()
+    if end < start:
+        end = start
+
+    hist_map = {
+        r["date"]: (int(r["authored"]), int(r["reviewed"])) for r in history
+    }
+    last_a = last_r = 0
+    points: list[tuple[date, int, int]] = []
+    d = start
+    while d <= end:
+        if d.isoformat() in hist_map:
+            last_a, last_r = hist_map[d.isoformat()]
+        points.append((d, last_a, last_r))
+        d += timedelta(days=1)
+
+    labels = [
+        f'"{p.strftime("%m-%d")}"' if (p.day == 1 or p.weekday() == 0) else '""'
+        for p, _, _ in points
+    ]
+    authored = [a for _, a, _ in points]
+    reviewed = [r for _, _, r in points]
     y_max = max(max(authored, default=0), max(reviewed, default=0), 1) + 1
+
     return "\n".join([
         "```mermaid",
         "xychart-beta",
-        '    title "Apache Airflow PR 누적 추이 (2026-04-22~)"',
-        f'    x-axis [{", ".join(dates)}]',
+        '    title "Apache Airflow PR 누적 추이 (2026-01-01~)"',
+        f'    x-axis [{", ".join(labels)}]',
         f'    y-axis "PR 수" 0 --> {y_max}',
         f'    line [{", ".join(map(str, authored))}]',
         f'    line [{", ".join(map(str, reviewed))}]',
         "```",
         "",
-        "> 첫 번째 라인: **작성 PR 누계** · 두 번째 라인: **리뷰 PR 누계**",
+        "> 첫 번째 라인: **작성 PR 누계** · 두 번째 라인: **리뷰 PR 누계**. "
+        f"측정 시작({SINCE}) 이전 구간은 0으로 표시.",
     ])
 
 
