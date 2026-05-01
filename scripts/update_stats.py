@@ -128,6 +128,7 @@ def build_chart(authored_prs: list[dict], reviewed_prs: list[dict]) -> str:
 
     return "\n".join([
         "```mermaid",
+        '%%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#3b82f6, #f59e0b"}}}}%%',
         "xychart-beta",
         f'    title "Apache Airflow PR 누적 추이 ({CHART_START}~)"',
         f'    x-axis [{", ".join(labels)}]',
@@ -136,8 +137,8 @@ def build_chart(authored_prs: list[dict], reviewed_prs: list[dict]) -> str:
         f'    line [{", ".join(map(str, reviewed))}]',
         "```",
         "",
-        "> 매주 월요일 시점의 PR 누계 (마지막 점은 오늘 시점). "
-        "첫 번째 라인: **작성 PR**, 두 번째 라인: **리뷰 PR**.",
+        "> 🔵 **작성 PR** · 🟠 **리뷰 PR** "
+        "(매주 월요일 시점의 누계, 마지막 점은 오늘 시점)",
     ])
 
 
