@@ -15,12 +15,12 @@ xychart-beta
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04"]
     y-axis "PR 수" 0 --> 54
     line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 53]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 0, 35, 35]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 0, 37, 39]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-04 12:29 UTC_
+_마지막 업데이트: 2026-05-04 22:04 UTC_
 
 ### Offline Team A
 
@@ -29,7 +29,7 @@ _마지막 업데이트: 2026-05-04 12:29 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [19](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [17](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [19](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [20](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
 | 김태훈 | [@23tae](https://github.com/23tae) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
@@ -78,8 +78,8 @@ _없음_
 **작성한 PR**
 
 - [#66312 Align Dag terminology in CLI commands](https://github.com/apache/airflow/pull/66312) — 🟢 open (2026-05-03)
-- [#66284 UI: fix Searchbar input rewind](https://github.com/apache/airflow/pull/66284) — 🟢 open (2026-05-02)
-- [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟢 open (2026-05-01)
+- [#66284 UI: fix Searchbar input rewind](https://github.com/apache/airflow/pull/66284) — 🟣 merged (2026-05-02)
+- [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟣 merged (2026-05-01)
 - [#66211 Align Dag capitalization from "DAG" to "Dag" in core_api](https://github.com/apache/airflow/pull/66211) — 🟣 merged (2026-05-01)
 - [#66200 Align Dag capitalization from "DAG" to "Dag" for airflow-core/src/airflow/api/](https://github.com/apache/airflow/pull/66200) — 🟣 merged (2026-05-01)
 - [#66163 i18n(ko): add missing translations(Apr 30)](https://github.com/apache/airflow/pull/66163) — 🟣 merged (2026-04-30)
@@ -99,17 +99,20 @@ _없음_
 
 **리뷰한 PR**
 
+- [#66370 Fix config lint warnings for remove_if_equals rules](https://github.com/apache/airflow/pull/66370) — 🟢 open (2026-05-04)
+- [#66356 Add lychee prek hook (offline mode) and fix internal markdown links](https://github.com/apache/airflow/pull/66356) — 🟢 open (2026-05-04)
 - [#66304 [v3-2-test] Align Dag capitalization from "DAG" to "Dag" in core_api (#66211)](https://github.com/apache/airflow/pull/66304) — 🟣 merged (2026-05-03)
 - [#66287 Cleanup integration names for consistency](https://github.com/apache/airflow/pull/66287) — 🟣 merged (2026-05-02)
 - [#66274 i18n(ko): translate deadline alerts strings](https://github.com/apache/airflow/pull/66274) — 🟢 open (2026-05-02)
+- [#66272 i18n(ko): Add translations for DAG deadline status (May 2)](https://github.com/apache/airflow/pull/66272) — 🟢 open (2026-05-02)
 - [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟢 open (2026-05-02)
 - [#66265 i18n(ko): Add Korean translation for deadlineStatus in dag.json (May 2)](https://github.com/apache/airflow/pull/66265) — 🟢 open (2026-05-02)
 - [#66256 Docs: add review checklist for example DAGs (continuation of #61786)](https://github.com/apache/airflow/pull/66256) — 🟢 open (2026-05-02)
 - [#66230 Fix TypeError in PercentFormatRender when numeric callsite parameters…](https://github.com/apache/airflow/pull/66230) — 🟢 open (2026-05-01)
-- [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟢 open (2026-05-01)
+- [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟣 merged (2026-05-01)
 - [#66219 UI: Fix SearchBar state rewind bug and improve UX responsiveness](https://github.com/apache/airflow/pull/66219) — 🔴 closed (2026-05-01)
 - [#66218 [AIP-94] airflowctl tasks: add clear and states-for-dag-run commands](https://github.com/apache/airflow/pull/66218) — 🟢 open (2026-05-01)
-- [#66210 Fix slow trigger cleanup by using NOT EXISTS instead of NOT IN](https://github.com/apache/airflow/pull/66210) — 🟢 open (2026-05-01)
+- [#66210 Fix slow and incomplete trigger cleanup in scheduler](https://github.com/apache/airflow/pull/66210) — 🟢 open (2026-05-01)
 - [#66202 Add tasks state command to airflowctl](https://github.com/apache/airflow/pull/66202) — 🟢 open (2026-05-01)
 - [#66179 airflowctl add tasks clear command](https://github.com/apache/airflow/pull/66179) — 🟢 open (2026-04-30)
 - [#66149 Fix copied text from Rendered Templates tab including line numbers](https://github.com/apache/airflow/pull/66149) — 🔴 closed (2026-04-30)
@@ -302,7 +305,7 @@ _없음_
 |------|--------|---------|---------|
 | 김준영 | [@junyeong0619](https://github.com/junyeong0619) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajunyeong0619%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajunyeong0619%20created%3A%3E%3D2026-04-22) |
 | 김연신 | [@YeonShin](https://github.com/YeonShin) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AYeonShin%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AYeonShin%20created%3A%3E%3D2026-04-22) |
-| 구현우 | [@guhyunwoo](https://github.com/guhyunwoo) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) |
+| 구현우 | [@guhyunwoo](https://github.com/guhyunwoo) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) |
 | 박동현 | [@pdh0128](https://github.com/pdh0128) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Apdh0128%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Apdh0128%20created%3A%3E%3D2026-04-22) |
 | 채윤희 | [@kir-rin](https://github.com/kir-rin) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akir-rin%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akir-rin%20created%3A%3E%3D2026-04-22) |
 | 변승은 | [@gyowoo1113](https://github.com/gyowoo1113) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Agyowoo1113%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Agyowoo1113%20created%3A%3E%3D2026-04-22) |
@@ -314,7 +317,7 @@ _없음_
 
 **작성한 PR**
 
-- [#66267 i18n(Ko): add missing translations (May 2nd)](https://github.com/apache/airflow/pull/66267) — 🟢 open (2026-05-02)
+- [#66267 i18n(Ko): add missing translations (May 2nd)](https://github.com/apache/airflow/pull/66267) — 🟣 merged (2026-05-02)
 - [#66251 Allow pasting full datetime strings into date picker inputs](https://github.com/apache/airflow/pull/66251) — 🟢 open (2026-05-02)
 - [#66022 Task SDK: Add Variable.list() to list variables by prefix](https://github.com/apache/airflow/pull/66022) — 🟢 open (2026-04-28)
 
@@ -340,7 +343,7 @@ _없음_
 
 **리뷰한 PR**
 
-_없음_
+- [#66274 i18n(ko): translate deadline alerts strings](https://github.com/apache/airflow/pull/66274) — 🟢 open (2026-05-02)
 
 #### 박동현 ([@pdh0128](https://github.com/pdh0128))
 
