@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04"]
-    y-axis "PR 수" 0 --> 62
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 61]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 38, 44]
+    y-axis "PR 수" 0 --> 65
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 64]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 38, 45]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-08 22:00 UTC_
+_마지막 업데이트: 2026-05-09 21:50 UTC_
 
 ### Offline Team A
 
@@ -29,8 +29,8 @@ _마지막 업데이트: 2026-05-08 22:00 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [22](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [25](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
-| 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [23](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [26](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
 | 김태훈 | [@23tae](https://github.com/23tae) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
 | 김승규 | [@ed-kyu](https://github.com/ed-kyu) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aed-kyu%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aed-kyu%20created%3A%3E%3D2026-04-22) |
@@ -77,6 +77,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66623 UI: Change queued Dag runs color to grey in Calendar](https://github.com/apache/airflow/pull/66623) — 🟢 open (2026-05-09)
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
 - [#66486 Fix Triggerer runner_health_check_threshold log formatting](https://github.com/apache/airflow/pull/66486) — 🟢 open (2026-05-06)
 - [#66430 Bump sphinx-airflow-theme to 0.3.10](https://github.com/apache/airflow/pull/66430) — 🟣 merged (2026-05-05)
@@ -102,6 +103,7 @@ _없음_
 
 **리뷰한 PR**
 
+- [#66621 Fix calendar view showing queued runs as green, indistinguishable from success](https://github.com/apache/airflow/pull/66621) — 🟢 open (2026-05-09)
 - [#66560 Fix millisecond floating point duration bug](https://github.com/apache/airflow/pull/66560) — 🟣 merged (2026-05-07)
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
 - [#66452 Fix Azure Batch provider import error by capping azure-batch<15](https://github.com/apache/airflow/pull/66452) — 🟣 merged (2026-05-06)
@@ -132,6 +134,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66618 UI: Fix relative React plugin bundle URLs in dev mode](https://github.com/apache/airflow/pull/66618) — 🟢 open (2026-05-09)
 - [#66084 i18n(ko): add missing translations in components.json (Apr 29)](https://github.com/apache/airflow/pull/66084) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
@@ -191,7 +194,7 @@ _없음_
 | 이지수 | [@windylung](https://github.com/windylung) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Awindylung%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Awindylung%20created%3A%3E%3D2026-04-22) |
 | 김민엽 | [@minyeamer](https://github.com/minyeamer) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aminyeamer%20created%3A%3E%3D2026-04-22) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aminyeamer%20created%3A%3E%3D2026-04-22) |
 | 박다혜 | [@hyedall](https://github.com/hyedall) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
-| 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
+| 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
 | 강신우 | [@Kdreamtomaster](https://github.com/Kdreamtomaster) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) |
 | 백형준 | [@vividbaek](https://github.com/vividbaek) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
 
@@ -277,6 +280,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66617 Validate DAG trigger conf as JSON object or null](https://github.com/apache/airflow/pull/66617) — 🟢 open (2026-05-09)
 - [#66408 AIP-78: Fix airflowctl backfill management API methods](https://github.com/apache/airflow/pull/66408) — 🟢 open (2026-05-05)
 - [#66196 Validate dag run conf in backfill dry-run](https://github.com/apache/airflow/pull/66196) — 🟢 open (2026-05-01)
 - [#66093 CLI: Use Dag capitalization in Backfill help text](https://github.com/apache/airflow/pull/66093) — 🟣 merged (2026-04-29)
