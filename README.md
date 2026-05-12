@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11"]
-    y-axis "PR 수" 0 --> 70
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 69]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 48, 49]
+    y-axis "PR 수" 0 --> 74
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 73]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 48, 50]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-11 22:09 UTC_
+_마지막 업데이트: 2026-05-12 22:14 UTC_
 
 ### Offline Team A
 
@@ -29,7 +29,7 @@ _마지막 업데이트: 2026-05-11 22:09 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [26](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [28](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [28](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [29](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
 | 김태훈 | [@23tae](https://github.com/23tae) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
@@ -77,8 +77,10 @@ _없음_
 
 **작성한 PR**
 
-- [#66714 UI: Add hover feedback to Checkbox](https://github.com/apache/airflow/pull/66714) — 🟢 open (2026-05-11)
-- [#66703 Fix missing Chakra UI license in airflow-core](https://github.com/apache/airflow/pull/66703) — 🟢 open (2026-05-11)
+- [#66812 UI: Handle Dags state filter overflow on mobile](https://github.com/apache/airflow/pull/66812) — 🟢 open (2026-05-12)
+- [#66750 UI: Use link styling for Dag tags](https://github.com/apache/airflow/pull/66750) — 🟢 open (2026-05-12)
+- [#66714 UI: Add hover feedback to Checkbox](https://github.com/apache/airflow/pull/66714) — 🟣 merged (2026-05-11)
+- [#66703 Fix missing Chakra UI license in airflow-core](https://github.com/apache/airflow/pull/66703) — 🟣 merged (2026-05-11)
 - [#66647 UI: Use local Monaco editor module instead of CDN](https://github.com/apache/airflow/pull/66647) — 🟢 open (2026-05-10)
 - [#66623 UI: Change queued Dag runs color to grey in Calendar](https://github.com/apache/airflow/pull/66623) — 🟢 open (2026-05-09)
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
@@ -107,6 +109,7 @@ _없음_
 **리뷰한 PR**
 
 - [#66717 UI: Preserve Grid limit and filters when redirecting after manual Dag trigger](https://github.com/apache/airflow/pull/66717) — 🟢 open (2026-05-11)
+- [#66714 UI: Add hover feedback to Checkbox](https://github.com/apache/airflow/pull/66714) — 🟣 merged (2026-05-11)
 - [#66621 Fix calendar view showing queued runs as green, indistinguishable from success](https://github.com/apache/airflow/pull/66621) — 🟢 open (2026-05-09)
 - [#66560 Fix millisecond floating point duration bug](https://github.com/apache/airflow/pull/66560) — 🟣 merged (2026-05-07)
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
@@ -198,7 +201,7 @@ _없음_
 | 박지원 | [@david-parkk](https://github.com/david-parkk) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Adavid-parkk%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Adavid-parkk%20created%3A%3E%3D2026-04-22) |
 | 이욱성 | [@iwannagotobed](https://github.com/iwannagotobed) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) |
 | 이지수 | [@windylung](https://github.com/windylung) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Awindylung%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Awindylung%20created%3A%3E%3D2026-04-22) |
-| 김민엽 | [@minyeamer](https://github.com/minyeamer) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aminyeamer%20created%3A%3E%3D2026-04-22) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aminyeamer%20created%3A%3E%3D2026-04-22) |
+| 김민엽 | [@minyeamer](https://github.com/minyeamer) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aminyeamer%20created%3A%3E%3D2026-04-22) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aminyeamer%20created%3A%3E%3D2026-04-22) |
 | 박다혜 | [@hyedall](https://github.com/hyedall) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
 | 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
 | 강신우 | [@Kdreamtomaster](https://github.com/Kdreamtomaster) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) |
@@ -263,6 +266,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66809 UI: Improve doc_md rendering in Dag Documentation](https://github.com/apache/airflow/pull/66809) — 🟢 open (2026-05-12)
 - [#66080 i18n(Ko): add missing translation in components.json (Apr 29)](https://github.com/apache/airflow/pull/66080) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
@@ -328,7 +332,7 @@ _없음_
 | 구현우 | [@guhyunwoo](https://github.com/guhyunwoo) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) |
 | 박동현 | [@pdh0128](https://github.com/pdh0128) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Apdh0128%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Apdh0128%20created%3A%3E%3D2026-04-22) |
 | 채윤희 | [@kir-rin](https://github.com/kir-rin) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akir-rin%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akir-rin%20created%3A%3E%3D2026-04-22) |
-| 변승은 | [@gyowoo1113](https://github.com/gyowoo1113) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Agyowoo1113%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Agyowoo1113%20created%3A%3E%3D2026-04-22) |
+| 변승은 | [@gyowoo1113](https://github.com/gyowoo1113) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Agyowoo1113%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Agyowoo1113%20created%3A%3E%3D2026-04-22) |
 | 강정석 | [@rapsealk](https://github.com/rapsealk) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Arapsealk%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Arapsealk%20created%3A%3E%3D2026-04-22) |
 
 <details><summary>Online Team 상세 PR 목록</summary>
@@ -380,7 +384,7 @@ _없음_
 
 **작성한 PR**
 
-- [#66704 Migrate BigQueryInsertJobTrigger to use on_kill() for user-initiated kills](https://github.com/apache/airflow/pull/66704) — 🟢 open (2026-05-11)
+- [#66704 Migrate BigQueryInsertJobTrigger to use on_kill() for user-initiated kills](https://github.com/apache/airflow/pull/66704) — 🟣 merged (2026-05-11)
 - [#66583 i18n(ko): Update deadline terms and counter unit per community vote](https://github.com/apache/airflow/pull/66583) — 🔴 closed (2026-05-08)
 - [#66581 i18n(ko): Update deadline terminology and counter unit per community feedback](https://github.com/apache/airflow/pull/66581) — 🟣 merged (2026-05-08)
 - [#66266 i18n(ko): Add Korean translations for deadline status UI (May 2)](https://github.com/apache/airflow/pull/66266) — 🟣 merged (2026-05-02)
@@ -394,6 +398,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66780 Add tests for common compat lineage entities](https://github.com/apache/airflow/pull/66780) — 🟢 open (2026-05-12)
 - [#66272 i18n(ko): Add translations for DAG deadline status (May 2)](https://github.com/apache/airflow/pull/66272) — 🟣 merged (2026-05-02)
 
 **리뷰한 PR**
