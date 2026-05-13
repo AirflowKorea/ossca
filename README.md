@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11"]
-    y-axis "PR 수" 0 --> 74
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 73]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 48, 50]
+    y-axis "PR 수" 0 --> 78
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 77]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 53]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-12 22:14 UTC_
+_마지막 업데이트: 2026-05-13 22:16 UTC_
 
 ### Offline Team A
 
@@ -29,10 +29,10 @@ _마지막 업데이트: 2026-05-12 22:14 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [28](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [29](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [29](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [31](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
-| 김태훈 | [@23tae](https://github.com/23tae) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
+| 김태훈 | [@23tae](https://github.com/23tae) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
 | 김승규 | [@ed-kyu](https://github.com/ed-kyu) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aed-kyu%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aed-kyu%20created%3A%3E%3D2026-04-22) |
 | 민경도 | [@ggydo59](https://github.com/ggydo59) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aggydo59%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aggydo59%20created%3A%3E%3D2026-04-22) |
 
@@ -77,12 +77,13 @@ _없음_
 
 **작성한 PR**
 
-- [#66812 UI: Handle Dags state filter overflow on mobile](https://github.com/apache/airflow/pull/66812) — 🟢 open (2026-05-12)
-- [#66750 UI: Use link styling for Dag tags](https://github.com/apache/airflow/pull/66750) — 🟢 open (2026-05-12)
+- [#66846 Add import smoke check](https://github.com/apache/airflow/pull/66846) — 🟢 open (2026-05-13)
+- [#66812 UI: Handle Dags state filter overflow on mobile](https://github.com/apache/airflow/pull/66812) — 🟣 merged (2026-05-12)
+- [#66750 UI: Use link styling for Dag tags](https://github.com/apache/airflow/pull/66750) — 🟣 merged (2026-05-12)
 - [#66714 UI: Add hover feedback to Checkbox](https://github.com/apache/airflow/pull/66714) — 🟣 merged (2026-05-11)
 - [#66703 Fix missing Chakra UI license in airflow-core](https://github.com/apache/airflow/pull/66703) — 🟣 merged (2026-05-11)
 - [#66647 UI: Use local Monaco editor module instead of CDN](https://github.com/apache/airflow/pull/66647) — 🟢 open (2026-05-10)
-- [#66623 UI: Change queued Dag runs color to grey in Calendar](https://github.com/apache/airflow/pull/66623) — 🟢 open (2026-05-09)
+- [#66623 UI: Change queued Dag runs color to grey in Calendar](https://github.com/apache/airflow/pull/66623) — 🟣 merged (2026-05-09)
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
 - [#66486 Fix Triggerer runner_health_check_threshold log formatting](https://github.com/apache/airflow/pull/66486) — 🟣 merged (2026-05-06)
 - [#66430 Bump sphinx-airflow-theme to 0.3.10](https://github.com/apache/airflow/pull/66430) — 🟣 merged (2026-05-05)
@@ -108,9 +109,11 @@ _없음_
 
 **리뷰한 PR**
 
-- [#66717 UI: Preserve Grid limit and filters when redirecting after manual Dag trigger](https://github.com/apache/airflow/pull/66717) — 🟢 open (2026-05-11)
+- [#66879 Align Dag capitalization in EventsFilters comments](https://github.com/apache/airflow/pull/66879) — 🟣 merged (2026-05-13)
+- [#66812 UI: Handle Dags state filter overflow on mobile](https://github.com/apache/airflow/pull/66812) — 🟣 merged (2026-05-12)
+- [#66717 UI: Preserve Grid limit and filters when redirecting after manual Dag trigger](https://github.com/apache/airflow/pull/66717) — 🟣 merged (2026-05-11)
 - [#66714 UI: Add hover feedback to Checkbox](https://github.com/apache/airflow/pull/66714) — 🟣 merged (2026-05-11)
-- [#66621 Fix calendar view showing queued runs as green, indistinguishable from success](https://github.com/apache/airflow/pull/66621) — 🟢 open (2026-05-09)
+- [#66621 Fix calendar view showing queued runs as green, indistinguishable from success](https://github.com/apache/airflow/pull/66621) — 🔴 closed (2026-05-09)
 - [#66560 Fix millisecond floating point duration bug](https://github.com/apache/airflow/pull/66560) — 🟣 merged (2026-05-07)
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
 - [#66452 Fix Azure Batch provider import error by capping azure-batch<15](https://github.com/apache/airflow/pull/66452) — 🟣 merged (2026-05-06)
@@ -143,7 +146,7 @@ _없음_
 **작성한 PR**
 
 - [#66649 fix: report duplicate plugin names as import errors](https://github.com/apache/airflow/pull/66649) — 🟣 merged (2026-05-10)
-- [#66618 UI: Fix relative React plugin bundle URLs in dev mode](https://github.com/apache/airflow/pull/66618) — 🟢 open (2026-05-09)
+- [#66618 UI: Fix relative React plugin bundle URLs in dev mode](https://github.com/apache/airflow/pull/66618) — 🟣 merged (2026-05-09)
 - [#66084 i18n(ko): add missing translations in components.json (Apr 29)](https://github.com/apache/airflow/pull/66084) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
@@ -164,6 +167,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66856 Refactor Opensearch log formatter to use timezone.from_timestamp and export it in Task SDK](https://github.com/apache/airflow/pull/66856) — 🟢 open (2026-05-13)
 - [#66094 i18n: Add Korean translation for deactivated Dag status](https://github.com/apache/airflow/pull/66094) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
@@ -198,12 +202,12 @@ _없음_
 |------|--------|---------|---------|
 | 김동현 | [@kddhhh23](https://github.com/kddhhh23) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akddhhh23%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akddhhh23%20created%3A%3E%3D2026-04-22) |
 | 강상훈 | [@sanghunka](https://github.com/sanghunka) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Asanghunka%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Asanghunka%20created%3A%3E%3D2026-04-22) |
-| 박지원 | [@david-parkk](https://github.com/david-parkk) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Adavid-parkk%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Adavid-parkk%20created%3A%3E%3D2026-04-22) |
+| 박지원 | [@david-parkk](https://github.com/david-parkk) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Adavid-parkk%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Adavid-parkk%20created%3A%3E%3D2026-04-22) |
 | 이욱성 | [@iwannagotobed](https://github.com/iwannagotobed) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) |
 | 이지수 | [@windylung](https://github.com/windylung) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Awindylung%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Awindylung%20created%3A%3E%3D2026-04-22) |
 | 김민엽 | [@minyeamer](https://github.com/minyeamer) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aminyeamer%20created%3A%3E%3D2026-04-22) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aminyeamer%20created%3A%3E%3D2026-04-22) |
-| 박다혜 | [@hyedall](https://github.com/hyedall) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
-| 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
+| 박다혜 | [@hyedall](https://github.com/hyedall) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
+| 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
 | 강신우 | [@Kdreamtomaster](https://github.com/Kdreamtomaster) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) |
 | 백형준 | [@vividbaek](https://github.com/vividbaek) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
 
@@ -233,6 +237,7 @@ _없음_
 
 **작성한 PR**
 
+- [#66874 Prevent AlreadyRunningBackfill error caused by invalid date range request](https://github.com/apache/airflow/pull/66874) — 🟢 open (2026-05-13)
 - [#66079 i18n(Ko): add missing translations in dag.json](https://github.com/apache/airflow/pull/66079) — 🟣 merged (2026-04-29)
 - [#65934 Fix AwaitMessageTrigger missing super().__init__() call](https://github.com/apache/airflow/pull/65934) — 🔴 closed (2026-04-27)
 - [#65734 Fix KafkaError.name() called without parentheses in create_topic](https://github.com/apache/airflow/pull/65734) — 🟢 open (2026-04-23)
@@ -280,7 +285,7 @@ _없음_
 
 **작성한 PR**
 
-_없음_
+- [#66879 Align Dag capitalization in EventsFilters comments](https://github.com/apache/airflow/pull/66879) — 🟣 merged (2026-05-13)
 
 **리뷰한 PR**
 
@@ -292,13 +297,13 @@ _없음_
 
 - [#66617 Validate DAG trigger conf as JSON object or null](https://github.com/apache/airflow/pull/66617) — 🟣 merged (2026-05-09)
 - [#66408 AIP-78: Fix airflowctl backfill management API methods](https://github.com/apache/airflow/pull/66408) — 🟢 open (2026-05-05)
-- [#66196 Validate dag run conf in backfill dry-run](https://github.com/apache/airflow/pull/66196) — 🟢 open (2026-05-01)
+- [#66196 Validate dag run conf in backfill dry-run](https://github.com/apache/airflow/pull/66196) — 🟣 merged (2026-05-01)
 - [#66093 CLI: Use Dag capitalization in Backfill help text](https://github.com/apache/airflow/pull/66093) — 🟣 merged (2026-04-29)
 - [#66081 UI: Align Dag capitalization in e2e tests](https://github.com/apache/airflow/pull/66081) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
 
-_없음_
+- [#66408 AIP-78: Fix airflowctl backfill management API methods](https://github.com/apache/airflow/pull/66408) — 🟢 open (2026-05-05)
 
 #### 강신우 ([@Kdreamtomaster](https://github.com/Kdreamtomaster))
 
@@ -343,12 +348,12 @@ _없음_
 
 - [#66267 i18n(Ko): add missing translations (May 2nd)](https://github.com/apache/airflow/pull/66267) — 🟣 merged (2026-05-02)
 - [#66251 Allow pasting full datetime strings into date picker inputs](https://github.com/apache/airflow/pull/66251) — 🟢 open (2026-05-02)
-- [#66022 Task SDK: Add Variable.keys() to list variable keys by prefix](https://github.com/apache/airflow/pull/66022) — 🟢 open (2026-04-28)
+- [#66022 Task SDK: Add Variable.keys() to list variable keys by prefix](https://github.com/apache/airflow/pull/66022) — 🟣 merged (2026-04-28)
 
 **리뷰한 PR**
 
 - [#66251 Allow pasting full datetime strings into date picker inputs](https://github.com/apache/airflow/pull/66251) — 🟢 open (2026-05-02)
-- [#66022 Task SDK: Add Variable.keys() to list variable keys by prefix](https://github.com/apache/airflow/pull/66022) — 🟢 open (2026-04-28)
+- [#66022 Task SDK: Add Variable.keys() to list variable keys by prefix](https://github.com/apache/airflow/pull/66022) — 🟣 merged (2026-04-28)
 
 #### 김연신 ([@YeonShin](https://github.com/YeonShin))
 
