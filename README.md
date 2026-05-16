@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11"]
-    y-axis "PR 수" 0 --> 80
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 79]
+    y-axis "PR 수" 0 --> 81
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80]
     line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-15 22:01 UTC_
+_마지막 업데이트: 2026-05-16 21:53 UTC_
 
 ### Offline Team A
 
@@ -77,8 +77,8 @@ _없음_
 
 **작성한 PR**
 
-- [#66945 UI: Add custom RouterLink component](https://github.com/apache/airflow/pull/66945) — 🟢 open (2026-05-14)
-- [#66846 Add import smoke check](https://github.com/apache/airflow/pull/66846) — 🟢 open (2026-05-13)
+- [#66945 UI: Add custom RouterLink component](https://github.com/apache/airflow/pull/66945) — 🟣 merged (2026-05-14)
+- [#66846 Add smoke test for broken import](https://github.com/apache/airflow/pull/66846) — 🟢 open (2026-05-13)
 - [#66812 UI: Handle Dags state filter overflow on mobile](https://github.com/apache/airflow/pull/66812) — 🟣 merged (2026-05-12)
 - [#66750 UI: Use link styling for Dag tags](https://github.com/apache/airflow/pull/66750) — 🟣 merged (2026-05-12)
 - [#66714 UI: Add hover feedback to Checkbox](https://github.com/apache/airflow/pull/66714) — 🟣 merged (2026-05-11)
@@ -110,7 +110,7 @@ _없음_
 
 **리뷰한 PR**
 
-- [#66945 UI: Add custom RouterLink component](https://github.com/apache/airflow/pull/66945) — 🟢 open (2026-05-14)
+- [#66945 UI: Add custom RouterLink component](https://github.com/apache/airflow/pull/66945) — 🟣 merged (2026-05-14)
 - [#66879 Align Dag capitalization in EventsFilters comments](https://github.com/apache/airflow/pull/66879) — 🟣 merged (2026-05-13)
 - [#66812 UI: Handle Dags state filter overflow on mobile](https://github.com/apache/airflow/pull/66812) — 🟣 merged (2026-05-12)
 - [#66809 UI: Improve doc_md rendering in Dag Documentation](https://github.com/apache/airflow/pull/66809) — 🟢 open (2026-05-12)
@@ -212,7 +212,7 @@ _없음_
 | 박다혜 | [@hyedall](https://github.com/hyedall) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
 | 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
 | 강신우 | [@Kdreamtomaster](https://github.com/Kdreamtomaster) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) |
-| 백형준 | [@vividbaek](https://github.com/vividbaek) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
+| 백형준 | [@vividbaek](https://github.com/vividbaek) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
 
 <details><summary>Offline Team B 상세 PR 목록</summary>
 
@@ -323,6 +323,7 @@ _없음_
 
 **작성한 PR**
 
+- [#67022 Add dynamic task mapping no-op example](https://github.com/apache/airflow/pull/67022) — 🟢 open (2026-05-16)
 - [#66597 Clarify HttpOperator response_filter XCom usage](https://github.com/apache/airflow/pull/66597) — 🟣 merged (2026-05-08)
 - [#66089 UI tests: Align Dag capitalization in DagRunsPage comments](https://github.com/apache/airflow/pull/66089) — 🔴 closed (2026-04-29)
 
