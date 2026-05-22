@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18"]
-    y-axis "PR 수" 0 --> 88
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 87]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 59]
+    y-axis "PR 수" 0 --> 90
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 61]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-21 22:21 UTC_
+_마지막 업데이트: 2026-05-22 22:11 UTC_
 
 ### Offline Team A
 
@@ -32,7 +32,7 @@ _마지막 업데이트: 2026-05-21 22:21 UTC_
 | 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [30](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [34](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
-| 김태훈 | [@23tae](https://github.com/23tae) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
+| 김태훈 | [@23tae](https://github.com/23tae) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
 | 김승규 | [@ed-kyu](https://github.com/ed-kyu) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aed-kyu%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aed-kyu%20created%3A%3E%3D2026-04-22) |
 | 민경도 | [@ggydo59](https://github.com/ggydo59) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aggydo59%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aggydo59%20created%3A%3E%3D2026-04-22) |
 
@@ -172,14 +172,16 @@ _없음_
 
 **작성한 PR**
 
+- [#67321 Export from_timestamp in Task SDK timezone module](https://github.com/apache/airflow/pull/67321) — 🟣 merged (2026-05-22)
 - [#67286 Standardize Execution API error responses to RFC 9457](https://github.com/apache/airflow/pull/67286) — 🟢 open (2026-05-21)
-- [#67245 Refactor Elasticsearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/67245) — 🟢 open (2026-05-20)
-- [#66856 Refactor Opensearch log formatter to use timezone.from_timestamp and export it in Task SDK](https://github.com/apache/airflow/pull/66856) — 🟢 open (2026-05-13)
+- [#67245 Refactor Elasticsearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/67245) — 🟣 merged (2026-05-20)
+- [#66856 Refactor Opensearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/66856) — 🟣 merged (2026-05-13)
 - [#66094 i18n: Add Korean translation for deactivated Dag status](https://github.com/apache/airflow/pull/66094) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
 
-- [#66856 Refactor Opensearch log formatter to use timezone.from_timestamp and export it in Task SDK](https://github.com/apache/airflow/pull/66856) — 🟢 open (2026-05-13)
+- [#67245 Refactor Elasticsearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/67245) — 🟣 merged (2026-05-20)
+- [#66856 Refactor Opensearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/66856) — 🟣 merged (2026-05-13)
 
 #### 김승규 ([@ed-kyu](https://github.com/ed-kyu))
 
@@ -224,12 +226,12 @@ _없음_
 
 **작성한 PR**
 
-- [#67234 i18n(ko): Improve Korean Task terminology consistency](https://github.com/apache/airflow/pull/67234) — 🟢 open (2026-05-20)
+- [#67234 i18n(ko): Improve Korean Task terminology consistency](https://github.com/apache/airflow/pull/67234) — 🟣 merged (2026-05-20)
 - [#66090 UI: Align Dag capitalization in e2e tests](https://github.com/apache/airflow/pull/66090) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
 
-- [#67234 i18n(ko): Improve Korean Task terminology consistency](https://github.com/apache/airflow/pull/67234) — 🟢 open (2026-05-20)
+- [#67234 i18n(ko): Improve Korean Task terminology consistency](https://github.com/apache/airflow/pull/67234) — 🟣 merged (2026-05-20)
 
 #### 강상훈 ([@sanghunka](https://github.com/sanghunka))
 
@@ -347,7 +349,7 @@ _없음_
 | 김연신 | [@YeonShin](https://github.com/YeonShin) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AYeonShin%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AYeonShin%20created%3A%3E%3D2026-04-22) |
 | 구현우 | [@guhyunwoo](https://github.com/guhyunwoo) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) |
 | 박동현 | [@pdh0128](https://github.com/pdh0128) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Apdh0128%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Apdh0128%20created%3A%3E%3D2026-04-22) |
-| 채윤희 | [@kir-rin](https://github.com/kir-rin) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akir-rin%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akir-rin%20created%3A%3E%3D2026-04-22) |
+| 채윤희 | [@kir-rin](https://github.com/kir-rin) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akir-rin%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akir-rin%20created%3A%3E%3D2026-04-22) |
 | 변승은 | [@gyowoo1113](https://github.com/gyowoo1113) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Agyowoo1113%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Agyowoo1113%20created%3A%3E%3D2026-04-22) |
 | 강정석 | [@rapsealk](https://github.com/rapsealk) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Arapsealk%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Arapsealk%20created%3A%3E%3D2026-04-22) |
 
@@ -403,6 +405,7 @@ _없음_
 
 **작성한 PR**
 
+- [#67325 Fix DAG_DISCOVERY_SAFE_MODE config not being respected](https://github.com/apache/airflow/pull/67325) — 🟢 open (2026-05-22)
 - [#66704 Migrate BigQueryInsertJobTrigger to use on_kill() for user-initiated kills](https://github.com/apache/airflow/pull/66704) — 🟣 merged (2026-05-11)
 - [#66583 i18n(ko): Update deadline terms and counter unit per community vote](https://github.com/apache/airflow/pull/66583) — 🔴 closed (2026-05-08)
 - [#66581 i18n(ko): Update deadline terminology and counter unit per community feedback](https://github.com/apache/airflow/pull/66581) — 🟣 merged (2026-05-08)
@@ -411,6 +414,7 @@ _없음_
 
 **리뷰한 PR**
 
+- [#67325 Fix DAG_DISCOVERY_SAFE_MODE config not being respected](https://github.com/apache/airflow/pull/67325) — 🟢 open (2026-05-22)
 - [#66266 i18n(ko): Add Korean translations for deadline status UI (May 2)](https://github.com/apache/airflow/pull/66266) — 🟣 merged (2026-05-02)
 
 #### 변승은 ([@gyowoo1113](https://github.com/gyowoo1113))
