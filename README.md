@@ -15,12 +15,12 @@ xychart-beta
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18"]
     y-axis "PR 수" 0 --> 90
     line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 61]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 60]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-22 22:11 UTC_
+_마지막 업데이트: 2026-05-23 21:57 UTC_
 
 ### Offline Team A
 
@@ -349,7 +349,7 @@ _없음_
 | 김연신 | [@YeonShin](https://github.com/YeonShin) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AYeonShin%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AYeonShin%20created%3A%3E%3D2026-04-22) |
 | 구현우 | [@guhyunwoo](https://github.com/guhyunwoo) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) |
 | 박동현 | [@pdh0128](https://github.com/pdh0128) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Apdh0128%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Apdh0128%20created%3A%3E%3D2026-04-22) |
-| 채윤희 | [@kir-rin](https://github.com/kir-rin) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akir-rin%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akir-rin%20created%3A%3E%3D2026-04-22) |
+| 채윤희 | [@kir-rin](https://github.com/kir-rin) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akir-rin%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akir-rin%20created%3A%3E%3D2026-04-22) |
 | 변승은 | [@gyowoo1113](https://github.com/gyowoo1113) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Agyowoo1113%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Agyowoo1113%20created%3A%3E%3D2026-04-22) |
 | 강정석 | [@rapsealk](https://github.com/rapsealk) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Arapsealk%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Arapsealk%20created%3A%3E%3D2026-04-22) |
 
@@ -405,7 +405,7 @@ _없음_
 
 **작성한 PR**
 
-- [#67325 Fix DAG_DISCOVERY_SAFE_MODE config not being respected](https://github.com/apache/airflow/pull/67325) — 🟢 open (2026-05-22)
+- [#67325 Fix DAG_DISCOVERY_SAFE_MODE config not being respected](https://github.com/apache/airflow/pull/67325) — 🔴 closed (2026-05-22)
 - [#66704 Migrate BigQueryInsertJobTrigger to use on_kill() for user-initiated kills](https://github.com/apache/airflow/pull/66704) — 🟣 merged (2026-05-11)
 - [#66583 i18n(ko): Update deadline terms and counter unit per community vote](https://github.com/apache/airflow/pull/66583) — 🔴 closed (2026-05-08)
 - [#66581 i18n(ko): Update deadline terminology and counter unit per community feedback](https://github.com/apache/airflow/pull/66581) — 🟣 merged (2026-05-08)
@@ -414,7 +414,6 @@ _없음_
 
 **리뷰한 PR**
 
-- [#67325 Fix DAG_DISCOVERY_SAFE_MODE config not being respected](https://github.com/apache/airflow/pull/67325) — 🟢 open (2026-05-22)
 - [#66266 i18n(ko): Add Korean translations for deadline status UI (May 2)](https://github.com/apache/airflow/pull/66266) — 🟣 merged (2026-05-02)
 
 #### 변승은 ([@gyowoo1113](https://github.com/gyowoo1113))
