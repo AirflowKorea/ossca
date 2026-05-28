@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-27 22:43 UTC_
+_마지막 업데이트: 2026-05-28 22:41 UTC_
 
 ### Offline Team A
 
@@ -338,7 +338,7 @@ _없음_
 
 **작성한 PR**
 
-- [#67022 Add dynamic task mapping no-op example](https://github.com/apache/airflow/pull/67022) — 🟢 open (2026-05-16)
+- [#67022 Add dynamic task mapping no-op example](https://github.com/apache/airflow/pull/67022) — 🟣 merged (2026-05-16)
 - [#66597 Clarify HttpOperator response_filter XCom usage](https://github.com/apache/airflow/pull/66597) — 🟣 merged (2026-05-08)
 - [#66089 UI tests: Align Dag capitalization in DagRunsPage comments](https://github.com/apache/airflow/pull/66089) — 🔴 closed (2026-04-29)
 
