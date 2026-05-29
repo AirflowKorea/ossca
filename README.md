@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25"]
-    y-axis "PR 수" 0 --> 93
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 92]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 64, 65]
+    y-axis "PR 수" 0 --> 98
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 97]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 64, 66]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-28 22:41 UTC_
+_마지막 업데이트: 2026-05-29 22:38 UTC_
 
 ### Offline Team A
 
@@ -32,8 +32,8 @@ _마지막 업데이트: 2026-05-28 22:41 UTC_
 | 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [30](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [34](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
-| 김태훈 | [@23tae](https://github.com/23tae) | [7](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [7](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
-| 김승규 | [@ed-kyu](https://github.com/ed-kyu) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aed-kyu%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aed-kyu%20created%3A%3E%3D2026-04-22) |
+| 김태훈 | [@23tae](https://github.com/23tae) | [7](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [8](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
+| 김승규 | [@ed-kyu](https://github.com/ed-kyu) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aed-kyu%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aed-kyu%20created%3A%3E%3D2026-04-22) |
 | 민경도 | [@ggydo59](https://github.com/ggydo59) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aggydo59%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aggydo59%20created%3A%3E%3D2026-04-22) |
 
 <details><summary>Offline Team A 상세 PR 목록</summary>
@@ -182,6 +182,7 @@ _없음_
 
 **리뷰한 PR**
 
+- [#67638 Fix DataprocCreateBatchOperator stuck in deferred state for a long time](https://github.com/apache/airflow/pull/67638) — 🟢 open (2026-05-28)
 - [#67588 Add overwrite_file option to IMAP download_mail_attachments](https://github.com/apache/airflow/pull/67588) — 🟢 open (2026-05-27)
 - [#67445 API: Return 400 instead of 500 from materialize_asset on invalid input](https://github.com/apache/airflow/pull/67445) — 🟣 merged (2026-05-24)
 - [#67428 Add author-primary review-nudge/reviewer-ping triage templates](https://github.com/apache/airflow/pull/67428) — 🟣 merged (2026-05-24)
@@ -194,6 +195,8 @@ _없음_
 
 **작성한 PR**
 
+- [#67689 Use oracledb AuthMode/Purity enums in Oracle hook connection config](https://github.com/apache/airflow/pull/67689) — 🟢 open (2026-05-29)
+- [#67685 Remove stale type-ignore TODO in HTTP hook run_with_advanced_retry](https://github.com/apache/airflow/pull/67685) — 🟢 open (2026-05-29)
 - [#66083 UI: Align Dag capitalization in e2e tests](https://github.com/apache/airflow/pull/66083) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
@@ -225,7 +228,7 @@ _없음_
 | 박다혜 | [@hyedall](https://github.com/hyedall) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
 | 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
 | 강신우 | [@Kdreamtomaster](https://github.com/Kdreamtomaster) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) |
-| 백형준 | [@vividbaek](https://github.com/vividbaek) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
+| 백형준 | [@vividbaek](https://github.com/vividbaek) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
 
 <details><summary>Offline Team B 상세 PR 목록</summary>
 
@@ -338,6 +341,9 @@ _없음_
 
 **작성한 PR**
 
+- [#67705 docs: add automated remediation guardrails to retry docs](https://github.com/apache/airflow/pull/67705) — 🟢 open (2026-05-29)
+- [#67677 docs: add HTTP response branching example to HTTP provider](https://github.com/apache/airflow/pull/67677) — 🟢 open (2026-05-29)
+- [#67676 docs: add manual remediation Dag example with Params and dry-run guard](https://github.com/apache/airflow/pull/67676) — 🟢 open (2026-05-29)
 - [#67022 Add dynamic task mapping no-op example](https://github.com/apache/airflow/pull/67022) — 🟣 merged (2026-05-16)
 - [#66597 Clarify HttpOperator response_filter XCom usage](https://github.com/apache/airflow/pull/66597) — 🟣 merged (2026-05-08)
 - [#66089 UI tests: Align Dag capitalization in DagRunsPage comments](https://github.com/apache/airflow/pull/66089) — 🔴 closed (2026-04-29)
