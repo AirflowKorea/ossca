@@ -12,15 +12,15 @@
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#3b82f6, #f59e0b"}}}}%%
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
-    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25"]
-    y-axis "PR 수" 0 --> 98
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 97]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 64, 66]
+    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01"]
+    y-axis "PR 수" 0 --> 99
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 64, 66, 66]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-05-31 22:02 UTC_
+_마지막 업데이트: 2026-06-01 23:03 UTC_
 
 ### Offline Team A
 
@@ -360,7 +360,7 @@ _없음_
 |------|--------|---------|---------|
 | 김준영 | [@junyeong0619](https://github.com/junyeong0619) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajunyeong0619%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajunyeong0619%20created%3A%3E%3D2026-04-22) |
 | 김연신 | [@YeonShin](https://github.com/YeonShin) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AYeonShin%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AYeonShin%20created%3A%3E%3D2026-04-22) |
-| 구현우 | [@guhyunwoo](https://github.com/guhyunwoo) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) |
+| 구현우 | [@guhyunwoo](https://github.com/guhyunwoo) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aguhyunwoo%20created%3A%3E%3D2026-04-22) |
 | 박동현 | [@pdh0128](https://github.com/pdh0128) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Apdh0128%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Apdh0128%20created%3A%3E%3D2026-04-22) |
 | 채윤희 | [@kir-rin](https://github.com/kir-rin) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akir-rin%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akir-rin%20created%3A%3E%3D2026-04-22) |
 | 변승은 | [@gyowoo1113](https://github.com/gyowoo1113) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Agyowoo1113%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Agyowoo1113%20created%3A%3E%3D2026-04-22) |
@@ -397,7 +397,8 @@ _없음_
 
 **작성한 PR**
 
-- [#67190 Emit task.queued_duration metric on QUEUED -> RUNNING in Task SDK path](https://github.com/apache/airflow/pull/67190) — 🟢 open (2026-05-19)
+- [#67820 Emit task.queued_duration metric on QUEUED -> RUNNING in Task SDK path](https://github.com/apache/airflow/pull/67820) — 🟢 open (2026-05-31)
+- [#67190 Emit task.queued_duration metric on QUEUED -> RUNNING in Task SDK path](https://github.com/apache/airflow/pull/67190) — 🔴 closed (2026-05-19)
 - [#67186 Fix cron preset schedules (@daily, @hourly, ...) failing validation in Task SDK](https://github.com/apache/airflow/pull/67186) — 🔴 closed (2026-05-19)
 - [#66274 i18n(ko): translate deadline alerts strings](https://github.com/apache/airflow/pull/66274) — 🟣 merged (2026-05-02)
 
