@@ -15,12 +15,12 @@ xychart-beta
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01"]
     y-axis "PR 수" 0 --> 99
     line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 64, 66, 67]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 65, 67, 68]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-06-03 23:06 UTC_
+_마지막 업데이트: 2026-06-04 22:22 UTC_
 
 ### Offline Team A
 
@@ -223,7 +223,7 @@ _없음_
 | 김동현 | [@kddhhh23](https://github.com/kddhhh23) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akddhhh23%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akddhhh23%20created%3A%3E%3D2026-04-22) |
 | 강상훈 | [@sanghunka](https://github.com/sanghunka) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Asanghunka%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Asanghunka%20created%3A%3E%3D2026-04-22) |
 | 박지원 | [@david-parkk](https://github.com/david-parkk) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Adavid-parkk%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Adavid-parkk%20created%3A%3E%3D2026-04-22) |
-| 이욱성 | [@iwannagotobed](https://github.com/iwannagotobed) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) |
+| 이욱성 | [@iwannagotobed](https://github.com/iwannagotobed) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) |
 | 이지수 | [@windylung](https://github.com/windylung) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Awindylung%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Awindylung%20created%3A%3E%3D2026-04-22) |
 | 김민엽 | [@minyeamer](https://github.com/minyeamer) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aminyeamer%20created%3A%3E%3D2026-04-22) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aminyeamer%20created%3A%3E%3D2026-04-22) |
 | 박다혜 | [@hyedall](https://github.com/hyedall) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
@@ -271,12 +271,12 @@ _없음_
 
 **작성한 PR**
 
-- [#67298 Fix Weaviate tenant-aware ingestion](https://github.com/apache/airflow/pull/67298) — 🟢 open (2026-05-21)
+- [#67298 Fix Weaviate tenant-aware ingestion](https://github.com/apache/airflow/pull/67298) — 🟣 merged (2026-05-21)
 - [#66086 i18n(Ko): add missing translation in dag.json (Apr 29)](https://github.com/apache/airflow/pull/66086) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
 
-_없음_
+- [#67298 Fix Weaviate tenant-aware ingestion](https://github.com/apache/airflow/pull/67298) — 🟣 merged (2026-05-21)
 
 #### 이지수 ([@windylung](https://github.com/windylung))
 
