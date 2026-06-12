@@ -15,12 +15,12 @@ xychart-beta
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08"]
     y-axis "PR 수" 0 --> 104
     line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 65, 67, 68, 69]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 65, 67, 68, 70]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-06-11 22:50 UTC_
+_마지막 업데이트: 2026-06-12 22:26 UTC_
 
 ### Offline Team A
 
@@ -29,7 +29,7 @@ _마지막 업데이트: 2026-06-11 22:50 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [32](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [34](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [32](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [35](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
 | 김태훈 | [@23tae](https://github.com/23tae) | [10](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [10](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
@@ -78,7 +78,7 @@ _없음_
 **작성한 PR**
 
 - [#68346 Add notification UX for HITL actions](https://github.com/apache/airflow/pull/68346) — 🟢 open (2026-06-10)
-- [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟢 open (2026-06-08)
+- [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
 - [#66945 UI: Add custom RouterLink component](https://github.com/apache/airflow/pull/66945) — 🟣 merged (2026-05-14)
 - [#66846 Add smoke test for broken import](https://github.com/apache/airflow/pull/66846) — 🟢 open (2026-05-13)
 - [#66812 UI: Handle Dags state filter overflow on mobile](https://github.com/apache/airflow/pull/66812) — 🟣 merged (2026-05-12)
@@ -112,6 +112,7 @@ _없음_
 
 **리뷰한 PR**
 
+- [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
 - [#67199 [v3-2-test] UI: Use local Monaco editor module instead of CDN (#66647)](https://github.com/apache/airflow/pull/67199) — 🟣 merged (2026-05-19)
 - [#66945 UI: Add custom RouterLink component](https://github.com/apache/airflow/pull/66945) — 🟣 merged (2026-05-14)
 - [#66879 Align Dag capitalization in EventsFilters comments](https://github.com/apache/airflow/pull/66879) — 🟣 merged (2026-05-13)
@@ -176,7 +177,7 @@ _없음_
 
 - [#68295 Fix Supervisor crash in Stackdriver remote log IO](https://github.com/apache/airflow/pull/68295) — 🟢 open (2026-06-09)
 - [#68293 Fix Stackdriver log read filter to use task_instance_id with backward compatibility](https://github.com/apache/airflow/pull/68293) — 🟢 open (2026-06-09)
-- [#68292 Fix empty labels in Stackdriver log IO for Airflow 3 Supervisor](https://github.com/apache/airflow/pull/68292) — 🟢 open (2026-06-09)
+- [#68292 Fix empty labels in Stackdriver log IO for Airflow 3 Supervisor](https://github.com/apache/airflow/pull/68292) — 🟣 merged (2026-06-09)
 - [#67540 i18n(ko): add missing translation for Rendered Map Index](https://github.com/apache/airflow/pull/67540) — 🟣 merged (2026-05-26)
 - [#67485 Remove redundant TODO comment in RedshiftHook](https://github.com/apache/airflow/pull/67485) — 🟣 merged (2026-05-25)
 - [#67321 Export from_timestamp in Task SDK timezone module](https://github.com/apache/airflow/pull/67321) — 🟣 merged (2026-05-22)
@@ -187,7 +188,7 @@ _없음_
 
 **리뷰한 PR**
 
-- [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟢 open (2026-06-08)
+- [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
 - [#67900 fix(backfill): Handle SQLite lock errors with atomic creation and graceful 503](https://github.com/apache/airflow/pull/67900) — 🟢 open (2026-06-02)
 - [#67638 Fix DataprocCreateBatchOperator stuck in deferred state for a long time](https://github.com/apache/airflow/pull/67638) — 🟢 open (2026-05-28)
 - [#67588 Add overwrite_file option to IMAP download_mail_attachments](https://github.com/apache/airflow/pull/67588) — 🟢 open (2026-05-27)
