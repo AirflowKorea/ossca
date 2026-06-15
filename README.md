@@ -12,15 +12,15 @@
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#3b82f6, #f59e0b"}}}}%%
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
-    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08"]
+    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15"]
     y-axis "PR 수" 0 --> 104
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 65, 67, 68, 70]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 103]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 57, 65, 67, 68, 70, 70]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-06-14 22:15 UTC_
+_마지막 업데이트: 2026-06-15 23:04 UTC_
 
 ### Offline Team A
 
@@ -190,7 +190,7 @@ _없음_
 
 - [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
 - [#67900 fix(backfill): Handle SQLite lock errors with atomic creation and graceful 503](https://github.com/apache/airflow/pull/67900) — 🟢 open (2026-06-02)
-- [#67638 Fix DataprocCreateBatchOperator stuck in deferred state for a long time](https://github.com/apache/airflow/pull/67638) — 🟢 open (2026-05-28)
+- [#67638 Fix DataprocCreateBatchOperator stuck in deferred state for a long time](https://github.com/apache/airflow/pull/67638) — 🟣 merged (2026-05-28)
 - [#67588 Add overwrite_file option to IMAP download_mail_attachments](https://github.com/apache/airflow/pull/67588) — 🟢 open (2026-05-27)
 - [#67445 API: Return 400 instead of 500 from materialize_asset on invalid input](https://github.com/apache/airflow/pull/67445) — 🟣 merged (2026-05-24)
 - [#67428 Add author-primary review-nudge/reviewer-ping triage templates](https://github.com/apache/airflow/pull/67428) — 🟣 merged (2026-05-24)
