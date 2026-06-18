@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-06-17 22:46 UTC_
+_마지막 업데이트: 2026-06-18 22:56 UTC_
 
 ### Offline Team A
 
@@ -77,7 +77,7 @@ _없음_
 
 **작성한 PR**
 
-- [#68638 UI: Remove unused @lezer/highlight dependency](https://github.com/apache/airflow/pull/68638) — 🟢 open (2026-06-16)
+- [#68638 UI: Remove unused @lezer/highlight dependency](https://github.com/apache/airflow/pull/68638) — 🔴 closed (2026-06-16)
 - [#68346 Add notification UX for HITL actions](https://github.com/apache/airflow/pull/68346) — 🟣 merged (2026-06-10)
 - [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
 - [#66945 UI: Add custom RouterLink component](https://github.com/apache/airflow/pull/66945) — 🟣 merged (2026-05-14)
@@ -142,8 +142,8 @@ _없음_
 - [#66219 UI: Fix SearchBar state rewind bug and improve UX responsiveness](https://github.com/apache/airflow/pull/66219) — 🔴 closed (2026-05-01)
 - [#66218 [AIP-94] airflowctl tasks: add clear and states-for-dag-run commands](https://github.com/apache/airflow/pull/66218) — 🔴 closed (2026-05-01)
 - [#66210 Fix slow and incomplete trigger cleanup in scheduler](https://github.com/apache/airflow/pull/66210) — 🟣 merged (2026-05-01)
-- [#66202 Add tasks state command to airflowctl](https://github.com/apache/airflow/pull/66202) — 🟢 open (2026-05-01)
-- [#66179 airflowctl add tasks clear command](https://github.com/apache/airflow/pull/66179) — 🟢 open (2026-04-30)
+- [#66202 Add tasks state command to airflowctl](https://github.com/apache/airflow/pull/66202) — 🔴 closed (2026-05-01)
+- [#66179 airflowctl add tasks clear command](https://github.com/apache/airflow/pull/66179) — 🔴 closed (2026-04-30)
 - [#66149 Fix copied text from Rendered Templates tab including line numbers](https://github.com/apache/airflow/pull/66149) — 🔴 closed (2026-04-30)
 - [#66112 Align Dag capitalization from "DAG" to "Dag" for airflow-ctl/](https://github.com/apache/airflow/pull/66112) — 🟣 merged (2026-04-29)
 - [#66086 i18n(Ko): add missing translation in dag.json (Apr 29)](https://github.com/apache/airflow/pull/66086) — 🟣 merged (2026-04-29)
@@ -407,7 +407,7 @@ _없음_
 
 **작성한 PR**
 
-- [#67820 Emit task.queued_duration metric on QUEUED -> RUNNING in Task SDK path](https://github.com/apache/airflow/pull/67820) — 🟢 open (2026-05-31)
+- [#67820 Emit task.queued_duration metric on QUEUED -> RUNNING in Task SDK path](https://github.com/apache/airflow/pull/67820) — 🔴 closed (2026-05-31)
 - [#67190 Emit task.queued_duration metric on QUEUED -> RUNNING in Task SDK path](https://github.com/apache/airflow/pull/67190) — 🔴 closed (2026-05-19)
 - [#67186 Fix cron preset schedules (@daily, @hourly, ...) failing validation in Task SDK](https://github.com/apache/airflow/pull/67186) — 🔴 closed (2026-05-19)
 - [#66274 i18n(ko): translate deadline alerts strings](https://github.com/apache/airflow/pull/66274) — 🟣 merged (2026-05-02)
