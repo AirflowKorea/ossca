@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-06-29 22:10 UTC_
+_마지막 업데이트: 2026-06-30 22:16 UTC_
 
 ### Offline Team A
 
@@ -91,7 +91,7 @@ _없음_
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
 - [#66486 Fix Triggerer runner_health_check_threshold log formatting](https://github.com/apache/airflow/pull/66486) — 🟣 merged (2026-05-06)
 - [#66430 Bump sphinx-airflow-theme to 0.3.10](https://github.com/apache/airflow/pull/66430) — 🟣 merged (2026-05-05)
-- [#66312 Align Dag capitalization from "DAG" to "Dag" in cli/commands](https://github.com/apache/airflow/pull/66312) — 🟢 open (2026-05-03)
+- [#66312 Use Dag instead of DAG in `airflow-core/src/airflow/cli`](https://github.com/apache/airflow/pull/66312) — 🟢 open (2026-05-03)
 - [#66284 UI: fix Searchbar input rewind](https://github.com/apache/airflow/pull/66284) — 🟣 merged (2026-05-02)
 - [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟣 merged (2026-05-01)
 - [#66211 Align Dag capitalization from "DAG" to "Dag" in core_api](https://github.com/apache/airflow/pull/66211) — 🟣 merged (2026-05-01)
