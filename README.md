@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29"]
-    y-axis "PR 수" 0 --> 107
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 106]
+    y-axis "PR 수" 0 --> 108
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 107]
     line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 66, 69, 70, 73, 73, 74, 74]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-06-30 22:16 UTC_
+_마지막 업데이트: 2026-07-01 22:19 UTC_
 
 ### Offline Team A
 
@@ -29,7 +29,7 @@ _마지막 업데이트: 2026-06-30 22:16 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [33](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [37](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [34](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [37](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
 | 김태훈 | [@23tae](https://github.com/23tae) | [12](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [11](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
@@ -77,6 +77,7 @@ _없음_
 
 **작성한 PR**
 
+- [#69211 i18n(ko): add missing translations(Jul 2)](https://github.com/apache/airflow/pull/69211) — 🟢 open (2026-07-01)
 - [#68638 UI: Remove unused @lezer/highlight dependency](https://github.com/apache/airflow/pull/68638) — 🔴 closed (2026-06-16)
 - [#68346 Add notification UX for HITL actions](https://github.com/apache/airflow/pull/68346) — 🟣 merged (2026-06-10)
 - [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
@@ -91,7 +92,7 @@ _없음_
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
 - [#66486 Fix Triggerer runner_health_check_threshold log formatting](https://github.com/apache/airflow/pull/66486) — 🟣 merged (2026-05-06)
 - [#66430 Bump sphinx-airflow-theme to 0.3.10](https://github.com/apache/airflow/pull/66430) — 🟣 merged (2026-05-05)
-- [#66312 Use Dag instead of DAG in `airflow-core/src/airflow/cli`](https://github.com/apache/airflow/pull/66312) — 🟢 open (2026-05-03)
+- [#66312 Use Dag instead of DAG in `airflow-core/src/airflow/cli`](https://github.com/apache/airflow/pull/66312) — 🔴 closed (2026-05-03)
 - [#66284 UI: fix Searchbar input rewind](https://github.com/apache/airflow/pull/66284) — 🟣 merged (2026-05-02)
 - [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟣 merged (2026-05-01)
 - [#66211 Align Dag capitalization from "DAG" to "Dag" in core_api](https://github.com/apache/airflow/pull/66211) — 🟣 merged (2026-05-01)
@@ -195,7 +196,7 @@ _없음_
 
 - [#68871 Fix AwsBatchExecutor test_try_adopt_task_instances after TaskInstanceDTO hostname requirement](https://github.com/apache/airflow/pull/68871) — 🟣 merged (2026-06-23)
 - [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
-- [#67900 fix(backfill): Return 503 with retryable message on SQLite lock errors](https://github.com/apache/airflow/pull/67900) — 🟢 open (2026-06-02)
+- [#67900 API: Return 503 when SQLite locks during backfill creation](https://github.com/apache/airflow/pull/67900) — 🟢 open (2026-06-02)
 - [#67638 Fix DataprocCreateBatchOperator stuck in deferred state for a long time](https://github.com/apache/airflow/pull/67638) — 🟣 merged (2026-05-28)
 - [#67588 Add overwrite_file option to IMAP download_mail_attachments](https://github.com/apache/airflow/pull/67588) — 🟢 open (2026-05-27)
 - [#67445 API: Return 400 instead of 500 from materialize_asset on invalid input](https://github.com/apache/airflow/pull/67445) — 🟣 merged (2026-05-24)
@@ -209,7 +210,7 @@ _없음_
 
 **작성한 PR**
 
-- [#67689 Use oracledb AuthMode/Purity enums in Oracle hook connection config](https://github.com/apache/airflow/pull/67689) — 🟢 open (2026-05-29)
+- [#67689 Use oracledb AuthMode/Purity enums in Oracle hook connection config](https://github.com/apache/airflow/pull/67689) — 🟣 merged (2026-05-29)
 - [#67685 Remove stale type-ignore TODO in HTTP hook run_with_advanced_retry](https://github.com/apache/airflow/pull/67685) — 🟢 open (2026-05-29)
 - [#66083 UI: Align Dag capitalization in e2e tests](https://github.com/apache/airflow/pull/66083) — 🟣 merged (2026-04-29)
 
