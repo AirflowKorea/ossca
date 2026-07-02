@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-01 22:19 UTC_
+_마지막 업데이트: 2026-07-02 22:10 UTC_
 
 ### Offline Team A
 
@@ -139,7 +139,7 @@ _없음_
 - [#66265 i18n(ko): Add Korean translation for deadlineStatus in dag.json (May 2)](https://github.com/apache/airflow/pull/66265) — 🟣 merged (2026-05-02)
 - [#66256 Docs: add review checklist for example DAGs (continuation of #61786)](https://github.com/apache/airflow/pull/66256) — 🟣 merged (2026-05-02)
 - [#66251 Allow pasting full datetime strings into date picker inputs](https://github.com/apache/airflow/pull/66251) — 🟣 merged (2026-05-02)
-- [#66230 Fix TypeError in PercentFormatRender when numeric callsite parameters…](https://github.com/apache/airflow/pull/66230) — 🟢 open (2026-05-01)
+- [#66230 Fix TypeError in PercentFormatRender when numeric callsite parameters…](https://github.com/apache/airflow/pull/66230) — 🔴 closed (2026-05-01)
 - [#66221 UI: Fix manual copy from Rendered Templates tab adding extra blank lines](https://github.com/apache/airflow/pull/66221) — 🟣 merged (2026-05-01)
 - [#66219 UI: Fix SearchBar state rewind bug and improve UX responsiveness](https://github.com/apache/airflow/pull/66219) — 🔴 closed (2026-05-01)
 - [#66218 [AIP-94] airflowctl tasks: add clear and states-for-dag-run commands](https://github.com/apache/airflow/pull/66218) — 🔴 closed (2026-05-01)
@@ -333,14 +333,14 @@ _없음_
 **작성한 PR**
 
 - [#66617 Validate DAG trigger conf as JSON object or null](https://github.com/apache/airflow/pull/66617) — 🟣 merged (2026-05-09)
-- [#66408 AIP-78: Fix airflowctl backfill management API methods](https://github.com/apache/airflow/pull/66408) — 🟢 open (2026-05-05)
+- [#66408 AIP-78: Fix airflowctl backfill management API methods](https://github.com/apache/airflow/pull/66408) — 🔴 closed (2026-05-05)
 - [#66196 Validate dag run conf in backfill dry-run](https://github.com/apache/airflow/pull/66196) — 🟣 merged (2026-05-01)
 - [#66093 CLI: Use Dag capitalization in Backfill help text](https://github.com/apache/airflow/pull/66093) — 🟣 merged (2026-04-29)
 - [#66081 UI: Align Dag capitalization in e2e tests](https://github.com/apache/airflow/pull/66081) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
 
-- [#66408 AIP-78: Fix airflowctl backfill management API methods](https://github.com/apache/airflow/pull/66408) — 🟢 open (2026-05-05)
+- [#66408 AIP-78: Fix airflowctl backfill management API methods](https://github.com/apache/airflow/pull/66408) — 🔴 closed (2026-05-05)
 
 #### 강신우 ([@Kdreamtomaster](https://github.com/Kdreamtomaster))
 
@@ -463,7 +463,7 @@ _없음_
 
 - [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟢 open (2026-05-02)
 - [#66265 i18n(ko): Add Korean translation for deadlineStatus in dag.json (May 2)](https://github.com/apache/airflow/pull/66265) — 🟣 merged (2026-05-02)
-- [#65836 Fix scheduler/triggerer deadlock on task_instance for deferrable tasks](https://github.com/apache/airflow/pull/65836) — 🟢 open (2026-04-25)
+- [#65836 Fix scheduler/triggerer deadlock on task_instance for deferrable tasks](https://github.com/apache/airflow/pull/65836) — 🔴 closed (2026-04-25)
 
 **리뷰한 PR**
 
