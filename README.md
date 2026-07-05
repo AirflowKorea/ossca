@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-04 22:01 UTC_
+_마지막 업데이트: 2026-07-05 22:04 UTC_
 
 ### Offline Team A
 
@@ -130,7 +130,7 @@ _없음_
 - [#66552 UI:  Hide the `Next Run` timestamp for paused Dags.](https://github.com/apache/airflow/pull/66552) — 🟣 merged (2026-05-07)
 - [#66452 Fix Azure Batch provider import error by capping azure-batch<15](https://github.com/apache/airflow/pull/66452) — 🟣 merged (2026-05-06)
 - [#66412 Fix triggerer crash when multiple triggers call sync SDK methods concurrently](https://github.com/apache/airflow/pull/66412) — 🟣 merged (2026-05-05)
-- [#66370 Fix config lint warnings for remove_if_equals rules](https://github.com/apache/airflow/pull/66370) — 🟢 open (2026-05-04)
+- [#66370 Fix config lint warnings for remove_if_equals rules](https://github.com/apache/airflow/pull/66370) — 🟣 merged (2026-05-04)
 - [#66356 Add lychee prek hook (offline mode) and fix internal markdown links](https://github.com/apache/airflow/pull/66356) — 🟣 merged (2026-05-04)
 - [#66304 [v3-2-test] Align Dag capitalization from "DAG" to "Dag" in core_api (#66211)](https://github.com/apache/airflow/pull/66304) — 🟣 merged (2026-05-03)
 - [#66287 Cleanup integration names for consistency](https://github.com/apache/airflow/pull/66287) — 🟣 merged (2026-05-02)
@@ -388,7 +388,7 @@ _없음_
 
 **작성한 PR**
 
-- [#66925 Remove airflow-core session and serialization imports from _run_task](https://github.com/apache/airflow/pull/66925) — 🟢 open (2026-05-14)
+- [#66925 Remove airflow-core session and serialization imports from _run_task](https://github.com/apache/airflow/pull/66925) — 🔴 closed (2026-05-14)
 - [#66267 i18n(Ko): add missing translations (May 2nd)](https://github.com/apache/airflow/pull/66267) — 🟣 merged (2026-05-02)
 - [#66251 Allow pasting full datetime strings into date picker inputs](https://github.com/apache/airflow/pull/66251) — 🟣 merged (2026-05-02)
 - [#66022 Task SDK: Add Variable.keys() to list variable keys by prefix](https://github.com/apache/airflow/pull/66022) — 🟣 merged (2026-04-28)
