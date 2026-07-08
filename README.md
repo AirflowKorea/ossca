@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29", "07-06"]
-    y-axis "PR 수" 0 --> 109
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 108]
+    y-axis "PR 수" 0 --> 110
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 109]
     line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 66, 69, 70, 73, 73, 74, 74, 74]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-07 22:11 UTC_
+_마지막 업데이트: 2026-07-08 22:10 UTC_
 
 ### Offline Team A
 
@@ -29,7 +29,7 @@ _마지막 업데이트: 2026-07-07 22:11 UTC_
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
 | 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
-| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [35](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [37](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
+| 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [36](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [37](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
 | 김태훈 | [@23tae](https://github.com/23tae) | [12](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [11](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
@@ -77,6 +77,7 @@ _없음_
 
 **작성한 PR**
 
+- [#69584 i18n(ko): add missing translations(Jul 8)](https://github.com/apache/airflow/pull/69584) — 🔴 closed (2026-07-08)
 - [#69310 UI: Fix triggered Dag run layout in asset event cards](https://github.com/apache/airflow/pull/69310) — 🟣 merged (2026-07-03)
 - [#69211 i18n(ko): add missing translations(Jul 2)](https://github.com/apache/airflow/pull/69211) — 🟣 merged (2026-07-01)
 - [#68638 UI: Remove unused @lezer/highlight dependency](https://github.com/apache/airflow/pull/68638) — 🔴 closed (2026-06-16)
@@ -182,7 +183,7 @@ _없음_
 
 - [#68890 Refactor validate_key to raise ValueError instead of AirflowException](https://github.com/apache/airflow/pull/68890) — 🟢 open (2026-06-23)
 - [#68849 Fix mypy type errors in DynamoDB example system test](https://github.com/apache/airflow/pull/68849) — 🟣 merged (2026-06-22)
-- [#68295 Fix Supervisor crash in Stackdriver remote log IO](https://github.com/apache/airflow/pull/68295) — 🟢 open (2026-06-09)
+- [#68295 Fix Supervisor crash in Stackdriver remote log IO](https://github.com/apache/airflow/pull/68295) — 🔴 closed (2026-06-09)
 - [#68293 Fix Stackdriver log read filter to use task_instance_id with backward compatibility](https://github.com/apache/airflow/pull/68293) — 🟢 open (2026-06-09)
 - [#68292 Fix empty labels in Stackdriver log IO for Airflow 3 Supervisor](https://github.com/apache/airflow/pull/68292) — 🟣 merged (2026-06-09)
 - [#67540 i18n(ko): add missing translation for Rendered Map Index](https://github.com/apache/airflow/pull/67540) — 🟣 merged (2026-05-26)
