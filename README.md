@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-08 22:10 UTC_
+_마지막 업데이트: 2026-07-09 22:24 UTC_
 
 ### Offline Team A
 
@@ -198,7 +198,7 @@ _없음_
 
 - [#68871 Fix AwsBatchExecutor test_try_adopt_task_instances after TaskInstanceDTO hostname requirement](https://github.com/apache/airflow/pull/68871) — 🟣 merged (2026-06-23)
 - [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
-- [#67900 API: Return 503 when SQLite locks during backfill creation](https://github.com/apache/airflow/pull/67900) — 🟢 open (2026-06-02)
+- [#67900 API: Return 503 when SQLite locks during backfill creation](https://github.com/apache/airflow/pull/67900) — 🟣 merged (2026-06-02)
 - [#67638 Fix DataprocCreateBatchOperator stuck in deferred state for a long time](https://github.com/apache/airflow/pull/67638) — 🟣 merged (2026-05-28)
 - [#67588 Add overwrite_file option to IMAP download_mail_attachments](https://github.com/apache/airflow/pull/67588) — 🔴 closed (2026-05-27)
 - [#67445 API: Return 400 instead of 500 from materialize_asset on invalid input](https://github.com/apache/airflow/pull/67445) — 🟣 merged (2026-05-24)
