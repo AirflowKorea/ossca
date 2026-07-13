@@ -12,15 +12,15 @@
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#3b82f6, #f59e0b"}}}}%%
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
-    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29", "07-06"]
+    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29", "07-06", "07-13"]
     y-axis "PR 수" 0 --> 112
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 111]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 66, 69, 70, 73, 73, 74, 74, 74]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 111, 111]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 66, 69, 70, 73, 73, 74, 74, 74, 74]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-12 21:54 UTC_
+_마지막 업데이트: 2026-07-13 21:59 UTC_
 
 ### Offline Team A
 
@@ -77,7 +77,7 @@ _없음_
 
 **작성한 PR**
 
-- [#69783 Fix Google Cloud Batch error messages to include job name](https://github.com/apache/airflow/pull/69783) — 🟢 open (2026-07-12)
+- [#69783 Fix Google Cloud Batch error messages to include job name](https://github.com/apache/airflow/pull/69783) — 🟣 merged (2026-07-12)
 - [#69781 i18n(ko): add missing translations(Jul 13)](https://github.com/apache/airflow/pull/69781) — 🟢 open (2026-07-12)
 - [#69584 i18n(ko): add missing translations(Jul 8)](https://github.com/apache/airflow/pull/69584) — 🔴 closed (2026-07-08)
 - [#69310 UI: Fix triggered Dag run layout in asset event cards](https://github.com/apache/airflow/pull/69310) — 🟣 merged (2026-07-03)
