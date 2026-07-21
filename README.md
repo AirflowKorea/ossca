@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-20 22:02 UTC_
+_마지막 업데이트: 2026-07-21 22:05 UTC_
 
 ### Offline Team A
 
@@ -192,7 +192,7 @@ _없음_
 - [#67540 i18n(ko): add missing translation for Rendered Map Index](https://github.com/apache/airflow/pull/67540) — 🟣 merged (2026-05-26)
 - [#67485 Remove redundant TODO comment in RedshiftHook](https://github.com/apache/airflow/pull/67485) — 🟣 merged (2026-05-25)
 - [#67321 Export from_timestamp in Task SDK timezone module](https://github.com/apache/airflow/pull/67321) — 🟣 merged (2026-05-22)
-- [#67286 Standardize Execution API error responses to RFC 9457](https://github.com/apache/airflow/pull/67286) — 🟢 open (2026-05-21)
+- [#67286 Standardize Execution API error responses to RFC 9457](https://github.com/apache/airflow/pull/67286) — 🔴 closed (2026-05-21)
 - [#67245 Refactor Elasticsearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/67245) — 🟣 merged (2026-05-20)
 - [#66856 Refactor Opensearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/66856) — 🟣 merged (2026-05-13)
 - [#66094 i18n: Add Korean translation for deactivated Dag status](https://github.com/apache/airflow/pull/66094) — 🟣 merged (2026-04-29)
@@ -208,7 +208,7 @@ _없음_
 - [#67428 Add author-primary review-nudge/reviewer-ping triage templates](https://github.com/apache/airflow/pull/67428) — 🟣 merged (2026-05-24)
 - [#67395 Handle no next run in dags next-execution --table](https://github.com/apache/airflow/pull/67395) — 🔴 closed (2026-05-24)
 - [#67357 fix oudated img links in `dags.rst`](https://github.com/apache/airflow/pull/67357) — 🟣 merged (2026-05-22)
-- [#67286 Standardize Execution API error responses to RFC 9457](https://github.com/apache/airflow/pull/67286) — 🟢 open (2026-05-21)
+- [#67286 Standardize Execution API error responses to RFC 9457](https://github.com/apache/airflow/pull/67286) — 🔴 closed (2026-05-21)
 - [#67245 Refactor Elasticsearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/67245) — 🟣 merged (2026-05-20)
 - [#66856 Refactor Opensearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/66856) — 🟣 merged (2026-05-13)
 
