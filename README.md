@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-21 22:05 UTC_
+_마지막 업데이트: 2026-07-22 22:05 UTC_
 
 ### Offline Team A
 
@@ -77,7 +77,7 @@ _없음_
 
 **작성한 PR**
 
-- [#69967 Fix Amazon provider log messages to show actual values](https://github.com/apache/airflow/pull/69967) — 🟢 open (2026-07-16)
+- [#69967 Fix Amazon provider log messages to show actual values](https://github.com/apache/airflow/pull/69967) — 🟣 merged (2026-07-16)
 - [#69783 Fix Google Cloud Batch error messages to include job name](https://github.com/apache/airflow/pull/69783) — 🟣 merged (2026-07-12)
 - [#69781 i18n(ko): add missing translations(Jul 13)](https://github.com/apache/airflow/pull/69781) — 🟣 merged (2026-07-12)
 - [#69584 i18n(ko): add missing translations(Jul 8)](https://github.com/apache/airflow/pull/69584) — 🔴 closed (2026-07-08)
