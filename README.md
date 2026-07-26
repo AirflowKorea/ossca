@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-25 21:58 UTC_
+_마지막 업데이트: 2026-07-26 22:01 UTC_
 
 ### Offline Team A
 
@@ -217,7 +217,7 @@ _없음_
 **작성한 PR**
 
 - [#67689 Use oracledb AuthMode/Purity enums in Oracle hook connection config](https://github.com/apache/airflow/pull/67689) — 🟣 merged (2026-05-29)
-- [#67685 Remove stale type-ignore TODO in HTTP hook run_with_advanced_retry](https://github.com/apache/airflow/pull/67685) — 🟢 open (2026-05-29)
+- [#67685 Remove stale type-ignore TODO in HTTP hook run_with_advanced_retry](https://github.com/apache/airflow/pull/67685) — 🟣 merged (2026-05-29)
 - [#66083 UI: Align Dag capitalization in e2e tests](https://github.com/apache/airflow/pull/66083) — 🟣 merged (2026-04-29)
 
 **리뷰한 PR**
