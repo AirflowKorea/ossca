@@ -12,22 +12,22 @@
 %%{init: {"themeVariables": {"xyChart": {"plotColorPalette": "#3b82f6, #f59e0b"}}}}%%
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
-    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29", "07-06", "07-13", "07-20"]
-    y-axis "PR 수" 0 --> 113
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 111, 112, 112]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 67, 70, 71, 74, 74, 75, 75, 75, 75, 75]
+    x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29", "07-06", "07-13", "07-20", "07-27"]
+    y-axis "PR 수" 0 --> 112
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 65, 79, 88, 97, 97, 102, 103, 105, 107, 110, 111, 111, 111]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 39, 47, 56, 65, 68, 69, 72, 72, 73, 73, 73, 73, 73, 73]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-07-26 22:01 UTC_
+_마지막 업데이트: 2026-07-27 22:10 UTC_
 
 ### Offline Team A
 
 | 이름 | GitHub | 작성 PR | 리뷰 PR |
 |------|--------|---------|---------|
 | 구지민 | [@jimizip](https://github.com/jimizip) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajimizip%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajimizip%20created%3A%3E%3D2026-04-22) |
-| 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
+| 사재혁 | [@JaeHyuckSa](https://github.com/JaeHyuckSa) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AJaeHyuckSa%20created%3A%3E%3D2026-04-22) |
 | 김수연 | [@kimsuyeon0916](https://github.com/kimsuyeon0916) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Akimsuyeon0916%20created%3A%3E%3D2026-04-22) |
 | 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [39](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [37](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
@@ -53,12 +53,11 @@ _없음_
 
 **작성한 PR**
 
-- [#66481 fix: default AIRFLOW_UID to 50000 in airflow-init chown lines](https://github.com/apache/airflow/pull/66481) — 🟣 merged (2026-05-06)
+_없음_
 
 **리뷰한 PR**
 
-- [#66080 i18n(Ko): add missing translation in components.json (Apr 29)](https://github.com/apache/airflow/pull/66080) — 🟣 merged (2026-04-29)
-- [#66078 i18n(Ko): translate no matches message](https://github.com/apache/airflow/pull/66078) — 🟣 merged (2026-04-29)
+_없음_
 
 #### 김수연 ([@kimsuyeon0916](https://github.com/kimsuyeon0916))
 
