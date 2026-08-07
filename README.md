@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-08-07 01:00 UTC_
+_마지막 업데이트: 2026-08-07 21:41 UTC_
 
 ### Offline Team A
 
@@ -456,7 +456,7 @@ _없음_
 
 **작성한 PR**
 
-- [#66780 Add tests for common compat lineage entities](https://github.com/apache/airflow/pull/66780) — 🟢 open (2026-05-12)
+- [#66780 Add tests for common compat lineage entities](https://github.com/apache/airflow/pull/66780) — 🔴 closed (2026-05-12)
 - [#66272 i18n(ko): Add translations for DAG deadline status (May 2)](https://github.com/apache/airflow/pull/66272) — 🟣 merged (2026-05-02)
 
 **리뷰한 PR**
