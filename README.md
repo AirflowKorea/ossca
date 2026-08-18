@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-08-17 21:27 UTC_
+_마지막 업데이트: 2026-08-18 21:26 UTC_
 
 ### Offline Team A
 
@@ -468,7 +468,7 @@ _없음_
 
 **작성한 PR**
 
-- [#70579 Accept deadline UUIDs in serialized Dag schema](https://github.com/apache/airflow/pull/70579) — 🟢 open (2026-07-28)
+- [#70579 Accept deadline UUIDs in serialized Dag schema](https://github.com/apache/airflow/pull/70579) — 🔴 closed (2026-07-28)
 - [#70578 Add deadline and callback exports to `airflow.sdk` type stub](https://github.com/apache/airflow/pull/70578) — 🟢 open (2026-07-28)
 - [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟢 open (2026-05-02)
 - [#66265 i18n(ko): Add Korean translation for deadlineStatus in dag.json (May 2)](https://github.com/apache/airflow/pull/66265) — 🟣 merged (2026-05-02)
