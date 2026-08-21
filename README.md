@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-08-20 21:30 UTC_
+_마지막 업데이트: 2026-08-21 21:27 UTC_
 
 ### Offline Team A
 
@@ -365,7 +365,7 @@ _없음_
 
 - [#67705 docs: add automated remediation guardrails to retry docs](https://github.com/apache/airflow/pull/67705) — 🟣 merged (2026-05-29)
 - [#67677 docs: add HTTP response branching example to HTTP provider](https://github.com/apache/airflow/pull/67677) — 🔴 closed (2026-05-29)
-- [#67676 docs: add manual remediation Dag example with Params and dry-run guard](https://github.com/apache/airflow/pull/67676) — 🟢 open (2026-05-29)
+- [#67676 docs: add manual remediation Dag example with Params and dry-run guard](https://github.com/apache/airflow/pull/67676) — 🔴 closed (2026-05-29)
 - [#67022 Add dynamic task mapping no-op example](https://github.com/apache/airflow/pull/67022) — 🟣 merged (2026-05-16)
 - [#66597 Clarify HttpOperator response_filter XCom usage](https://github.com/apache/airflow/pull/66597) — 🟣 merged (2026-05-08)
 - [#66089 UI tests: Align Dag capitalization in DagRunsPage comments](https://github.com/apache/airflow/pull/66089) — 🔴 closed (2026-04-29)
