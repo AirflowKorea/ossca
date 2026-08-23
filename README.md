@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-08-22 21:24 UTC_
+_마지막 업데이트: 2026-08-23 21:23 UTC_
 
 ### Offline Team A
 
@@ -160,7 +160,7 @@ _없음_
 
 **작성한 PR**
 
-- [#67187 fix: db clean skip-archive creating archive tables](https://github.com/apache/airflow/pull/67187) — 🟢 open (2026-05-19)
+- [#67187 fix: db clean skip-archive creating archive tables](https://github.com/apache/airflow/pull/67187) — 🔴 closed (2026-05-19)
 - [#66649 fix: report duplicate plugin names as import errors](https://github.com/apache/airflow/pull/66649) — 🟣 merged (2026-05-10)
 - [#66618 UI: Fix relative React plugin bundle URLs in dev mode](https://github.com/apache/airflow/pull/66618) — 🟣 merged (2026-05-09)
 - [#66084 i18n(ko): add missing translations in components.json (Apr 29)](https://github.com/apache/airflow/pull/66084) — 🟣 merged (2026-04-29)
