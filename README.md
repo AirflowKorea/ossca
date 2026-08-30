@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-08-29 23:05 UTC_
+_마지막 업데이트: 2026-08-30 23:17 UTC_
 
 ### Offline Team A
 
@@ -139,7 +139,7 @@ _없음_
 - [#66287 Cleanup integration names for consistency](https://github.com/apache/airflow/pull/66287) — 🟣 merged (2026-05-02)
 - [#66274 i18n(ko): translate deadline alerts strings](https://github.com/apache/airflow/pull/66274) — 🟣 merged (2026-05-02)
 - [#66272 i18n(ko): Add translations for DAG deadline status (May 2)](https://github.com/apache/airflow/pull/66272) — 🟣 merged (2026-05-02)
-- [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟢 open (2026-05-02)
+- [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟣 merged (2026-05-02)
 - [#66265 i18n(ko): Add Korean translation for deadlineStatus in dag.json (May 2)](https://github.com/apache/airflow/pull/66265) — 🟣 merged (2026-05-02)
 - [#66256 Docs: add review checklist for example DAGs (continuation of #61786)](https://github.com/apache/airflow/pull/66256) — 🟣 merged (2026-05-02)
 - [#66251 Allow pasting full datetime strings into date picker inputs](https://github.com/apache/airflow/pull/66251) — 🟣 merged (2026-05-02)
@@ -183,7 +183,7 @@ _없음_
 
 **작성한 PR**
 
-- [#68890 Refactor validate_key to raise ValueError instead of AirflowException](https://github.com/apache/airflow/pull/68890) — 🟢 open (2026-06-23)
+- [#68890 Refactor validate_key to raise ValueError instead of AirflowException](https://github.com/apache/airflow/pull/68890) — 🟣 merged (2026-06-23)
 - [#68849 Fix mypy type errors in DynamoDB example system test](https://github.com/apache/airflow/pull/68849) — 🟣 merged (2026-06-22)
 - [#68295 Fix Supervisor crash in Stackdriver remote log IO](https://github.com/apache/airflow/pull/68295) — 🔴 closed (2026-06-09)
 - [#68293 Fix Stackdriver log read filter to use task_instance_id with backward compatibility](https://github.com/apache/airflow/pull/68293) — 🟢 open (2026-06-09)
@@ -198,7 +198,7 @@ _없음_
 
 **리뷰한 PR**
 
-- [#68890 Refactor validate_key to raise ValueError instead of AirflowException](https://github.com/apache/airflow/pull/68890) — 🟢 open (2026-06-23)
+- [#68890 Refactor validate_key to raise ValueError instead of AirflowException](https://github.com/apache/airflow/pull/68890) — 🟣 merged (2026-06-23)
 - [#68871 Fix AwsBatchExecutor test_try_adopt_task_instances after TaskInstanceDTO hostname requirement](https://github.com/apache/airflow/pull/68871) — 🟣 merged (2026-06-23)
 - [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
 - [#67900 API: Return 503 when SQLite locks during backfill creation](https://github.com/apache/airflow/pull/67900) — 🟣 merged (2026-06-02)
@@ -470,13 +470,13 @@ _없음_
 
 - [#70579 Accept deadline UUIDs in serialized Dag schema](https://github.com/apache/airflow/pull/70579) — 🔴 closed (2026-07-28)
 - [#70578 Add deadline and callback exports to `airflow.sdk` type stub](https://github.com/apache/airflow/pull/70578) — 🟢 open (2026-07-28)
-- [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟢 open (2026-05-02)
+- [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟣 merged (2026-05-02)
 - [#66265 i18n(ko): Add Korean translation for deadlineStatus in dag.json (May 2)](https://github.com/apache/airflow/pull/66265) — 🟣 merged (2026-05-02)
 - [#65836 Fix scheduler/triggerer deadlock on task_instance for deferrable tasks](https://github.com/apache/airflow/pull/65836) — 🔴 closed (2026-04-25)
 
 **리뷰한 PR**
 
-- [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟢 open (2026-05-02)
+- [#66269 Add example DAG demonstrating Deadline Alerts](https://github.com/apache/airflow/pull/66269) — 🟣 merged (2026-05-02)
 - [#66265 i18n(ko): Add Korean translation for deadlineStatus in dag.json (May 2)](https://github.com/apache/airflow/pull/66265) — 🟣 merged (2026-05-02)
 
 </details>
