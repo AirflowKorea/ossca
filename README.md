@@ -13,14 +13,14 @@
 xychart-beta
     title "Apache Airflow PR 누적 추이 (2026-03-01~)"
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29", "07-06", "07-13", "07-20", "07-27", "08-03", "08-10", "08-17", "08-24", "08-31", "09-07", "09-14", "09-21", "09-28"]
-    y-axis "PR 수" 0 --> 116
-    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 111, 112, 112, 114, 114, 115, 115, 115, 115, 115, 115, 115, 115]
+    y-axis "PR 수" 0 --> 117
+    line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 111, 112, 112, 114, 114, 115, 115, 115, 115, 115, 115, 115, 116]
     line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 67, 70, 71, 75, 75, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-10-01 00:24 UTC_
+_마지막 업데이트: 2026-10-02 00:35 UTC_
 
 ### Offline Team A
 
@@ -251,7 +251,7 @@ _없음_
 | 박다혜 | [@hyedall](https://github.com/hyedall) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
 | 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
 | 강신우 | [@Kdreamtomaster](https://github.com/Kdreamtomaster) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AKdreamtomaster%20created%3A%3E%3D2026-04-22) |
-| 백형준 | [@vividbaek](https://github.com/vividbaek) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
+| 백형준 | [@vividbaek](https://github.com/vividbaek) | [7](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Avividbaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Avividbaek%20created%3A%3E%3D2026-04-22) |
 
 <details><summary>Offline Team B 상세 PR 목록</summary>
 
@@ -365,6 +365,7 @@ _없음_
 
 **작성한 PR**
 
+- [#74015 Use airflow.sdk imports in Airflow 3 upgrade guide example](https://github.com/apache/airflow/pull/74015) — 🟣 merged (2026-10-01)
 - [#67705 docs: add automated remediation guardrails to retry docs](https://github.com/apache/airflow/pull/67705) — 🟣 merged (2026-05-29)
 - [#67677 docs: add HTTP response branching example to HTTP provider](https://github.com/apache/airflow/pull/67677) — 🔴 closed (2026-05-29)
 - [#67676 docs: add manual remediation Dag example with Params and dry-run guard](https://github.com/apache/airflow/pull/67676) — 🔴 closed (2026-05-29)
