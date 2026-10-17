@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-10-16 23:18 UTC_
+_마지막 업데이트: 2026-10-17 22:56 UTC_
 
 ### Offline Team A
 
@@ -187,7 +187,7 @@ _없음_
 - [#68890 Refactor validate_key to raise ValueError instead of AirflowException](https://github.com/apache/airflow/pull/68890) — 🟣 merged (2026-06-23)
 - [#68849 Fix mypy type errors in DynamoDB example system test](https://github.com/apache/airflow/pull/68849) — 🟣 merged (2026-06-22)
 - [#68295 Fix Supervisor crash in Stackdriver remote log IO](https://github.com/apache/airflow/pull/68295) — 🔴 closed (2026-06-09)
-- [#68293 Fix Stackdriver log read filter to use task_instance_id with backward compatibility](https://github.com/apache/airflow/pull/68293) — 🟢 open (2026-06-09)
+- [#68293 Fix Stackdriver log read filter to use task_instance_id with backward compatibility](https://github.com/apache/airflow/pull/68293) — 🔴 closed (2026-06-09)
 - [#68292 Fix empty labels in Stackdriver log IO for Airflow 3 Supervisor](https://github.com/apache/airflow/pull/68292) — 🟣 merged (2026-06-09)
 - [#67540 i18n(ko): add missing translation for Rendered Map Index](https://github.com/apache/airflow/pull/67540) — 🟣 merged (2026-05-26)
 - [#67485 Remove redundant TODO comment in RedshiftHook](https://github.com/apache/airflow/pull/67485) — 🟣 merged (2026-05-25)
@@ -201,7 +201,7 @@ _없음_
 
 - [#68890 Refactor validate_key to raise ValueError instead of AirflowException](https://github.com/apache/airflow/pull/68890) — 🟣 merged (2026-06-23)
 - [#68871 Fix AwsBatchExecutor test_try_adopt_task_instances after TaskInstanceDTO hostname requirement](https://github.com/apache/airflow/pull/68871) — 🟣 merged (2026-06-23)
-- [#68293 Fix Stackdriver log read filter to use task_instance_id with backward compatibility](https://github.com/apache/airflow/pull/68293) — 🟢 open (2026-06-09)
+- [#68293 Fix Stackdriver log read filter to use task_instance_id with backward compatibility](https://github.com/apache/airflow/pull/68293) — 🔴 closed (2026-06-09)
 - [#68234 i18n(ko): add missing translations](https://github.com/apache/airflow/pull/68234) — 🟣 merged (2026-06-08)
 - [#67900 API: Return 503 when SQLite locks during backfill creation](https://github.com/apache/airflow/pull/67900) — 🟣 merged (2026-06-02)
 - [#67638 Fix DataprocCreateBatchOperator stuck in deferred state for a long time](https://github.com/apache/airflow/pull/67638) — 🟣 merged (2026-05-28)
