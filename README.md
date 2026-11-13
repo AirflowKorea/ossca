@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-11-12 02:08 UTC_
+_마지막 업데이트: 2026-11-13 01:42 UTC_
 
 ### Offline Team A
 
@@ -310,7 +310,7 @@ _없음_
 
 **리뷰한 PR**
 
-- [#76920 i18n(ko): add missing translaction in common.json (Nov 11)](https://github.com/apache/airflow/pull/76920) — 🟢 open (2026-11-11)
+- [#76920 i18n(ko): add missing translaction in common.json (Nov 11)](https://github.com/apache/airflow/pull/76920) — 🟣 merged (2026-11-11)
 - [#76675 i18n(ko): Add missing dag and dashboard translations (Nov 7)](https://github.com/apache/airflow/pull/76675) — 🟣 merged (2026-11-07)
 - [#76674 i18n(ko): add missing translation in common.json (Nov 7)](https://github.com/apache/airflow/pull/76674) — 🟣 merged (2026-11-07)
 - [#66083 UI: Align Dag capitalization in e2e tests](https://github.com/apache/airflow/pull/66083) — 🟣 merged (2026-04-29)
