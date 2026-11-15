@@ -15,12 +15,12 @@ xychart-beta
     x-axis ["03-01", "03-02", "03-09", "03-16", "03-23", "03-30", "04-06", "04-13", "04-20", "04-27", "05-04", "05-11", "05-18", "05-25", "06-01", "06-08", "06-15", "06-22", "06-29", "07-06", "07-13", "07-20", "07-27", "08-03", "08-10", "08-17", "08-24", "08-31", "09-07", "09-14", "09-21", "09-28", "10-05", "10-12", "10-19", "10-26", "11-02", "11-09"]
     y-axis "PR 수" 0 --> 121
     line [0, 0, 0, 0, 0, 0, 0, 0, 2, 52, 66, 80, 89, 98, 98, 103, 104, 106, 108, 111, 112, 112, 114, 114, 115, 115, 115, 115, 115, 115, 115, 117, 117, 118, 118, 118, 120, 120]
-    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 67, 70, 71, 75, 75, 77, 77, 77, 77, 77, 77, 77, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 78, 80, 81]
+    line [0, 0, 0, 0, 0, 0, 0, 0, 1, 41, 49, 58, 66, 69, 70, 74, 74, 76, 76, 76, 76, 76, 76, 76, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 77, 79, 81]
 ```
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-11-14 01:19 UTC_
+_마지막 업데이트: 2026-11-15 00:52 UTC_
 
 ### Offline Team A
 
@@ -32,7 +32,7 @@ _마지막 업데이트: 2026-11-14 01:19 UTC_
 | 박호정 | [@Parkhojeong](https://github.com/Parkhojeong) | [39](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3AParkhojeong%20created%3A%3E%3D2026-04-22) | [37](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3AParkhojeong%20created%3A%3E%3D2026-04-22) |
 | 박진우 | [@jinoo7099](https://github.com/jinoo7099) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ajinoo7099%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ajinoo7099%20created%3A%3E%3D2026-04-22) |
 | 백다은 | [@nuebaek](https://github.com/nuebaek) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Anuebaek%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Anuebaek%20created%3A%3E%3D2026-04-22) |
-| 김태훈 | [@23tae](https://github.com/23tae) | [12](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [14](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
+| 김태훈 | [@23tae](https://github.com/23tae) | [12](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3A23tae%20created%3A%3E%3D2026-04-22) | [13](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3A23tae%20created%3A%3E%3D2026-04-22) |
 | 김승규 | [@ed-kyu](https://github.com/ed-kyu) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aed-kyu%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aed-kyu%20created%3A%3E%3D2026-04-22) |
 | 민경도 | [@ggydo59](https://github.com/ggydo59) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aggydo59%20created%3A%3E%3D2026-04-22) | [0](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aggydo59%20created%3A%3E%3D2026-04-22) |
 
@@ -208,7 +208,6 @@ _없음_
 - [#67588 Add overwrite_file option to IMAP download_mail_attachments](https://github.com/apache/airflow/pull/67588) — 🔴 closed (2026-05-27)
 - [#67445 API: Return 400 instead of 500 from materialize_asset on invalid input](https://github.com/apache/airflow/pull/67445) — 🟣 merged (2026-05-24)
 - [#67428 Add author-primary review-nudge/reviewer-ping triage templates](https://github.com/apache/airflow/pull/67428) — 🟣 merged (2026-05-24)
-- [#67395 Handle no next run in dags next-execution --table](https://github.com/apache/airflow/pull/67395) — 🔴 closed (2026-05-24)
 - [#67357 fix oudated img links in `dags.rst`](https://github.com/apache/airflow/pull/67357) — 🟣 merged (2026-05-22)
 - [#67286 Standardize Execution API error responses to RFC 9457](https://github.com/apache/airflow/pull/67286) — 🔴 closed (2026-05-21)
 - [#67245 Refactor Elasticsearch log formatter to use timezone.from_timestamp](https://github.com/apache/airflow/pull/67245) — 🟣 merged (2026-05-20)
@@ -246,7 +245,7 @@ _없음_
 | 강상훈 | [@sanghunka](https://github.com/sanghunka) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Asanghunka%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Asanghunka%20created%3A%3E%3D2026-04-22) |
 | 박지원 | [@david-parkk](https://github.com/david-parkk) | [4](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Adavid-parkk%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Adavid-parkk%20created%3A%3E%3D2026-04-22) |
 | 이욱성 | [@iwannagotobed](https://github.com/iwannagotobed) | [2](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aiwannagotobed%20created%3A%3E%3D2026-04-22) |
-| 이지수 | [@windylung](https://github.com/windylung) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Awindylung%20created%3A%3E%3D2026-04-22) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Awindylung%20created%3A%3E%3D2026-04-22) |
+| 이지수 | [@windylung](https://github.com/windylung) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Awindylung%20created%3A%3E%3D2026-04-22) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Awindylung%20created%3A%3E%3D2026-04-22) |
 | 김민엽 | [@minyeamer](https://github.com/minyeamer) | [3](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Aminyeamer%20created%3A%3E%3D2026-04-22) | [6](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Aminyeamer%20created%3A%3E%3D2026-04-22) |
 | 박다혜 | [@hyedall](https://github.com/hyedall) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3Ahyedall%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3Ahyedall%20created%3A%3E%3D2026-04-22) |
 | 이상운 | [@Sangun-Lee-6](https://github.com/Sangun-Lee-6) | [5](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20author%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) | [1](https://github.com/apache/airflow/pulls?q=repo%3Aapache/airflow%20is%3Apr%20reviewed-by%3ASangun-Lee-6%20created%3A%3E%3D2026-04-22) |
@@ -310,6 +309,7 @@ _없음_
 
 **리뷰한 PR**
 
+- [#77082 i18n(ko): add missing translation in dags.json (Nov 14)](https://github.com/apache/airflow/pull/77082) — 🟣 merged (2026-11-14)
 - [#76920 i18n(ko): add missing translaction in common.json (Nov 11)](https://github.com/apache/airflow/pull/76920) — 🟣 merged (2026-11-11)
 - [#76675 i18n(ko): Add missing dag and dashboard translations (Nov 7)](https://github.com/apache/airflow/pull/76675) — 🟣 merged (2026-11-07)
 - [#76674 i18n(ko): add missing translation in common.json (Nov 7)](https://github.com/apache/airflow/pull/76674) — 🟣 merged (2026-11-07)
