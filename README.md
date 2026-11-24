@@ -20,7 +20,7 @@ xychart-beta
 
 > 🔵 **작성 PR** · 🟠 **리뷰 PR** (매주 월요일 시점의 누계, 마지막 점은 오늘 시점)
 
-_마지막 업데이트: 2026-11-23 01:27 UTC_
+_마지막 업데이트: 2026-11-24 05:09 UTC_
 
 ### Offline Team A
 
@@ -309,7 +309,7 @@ _없음_
 
 **리뷰한 PR**
 
-- [#77337 i18n(ko): Add remaining Triggers translations](https://github.com/apache/airflow/pull/77337) — 🟢 open (2026-11-19)
+- [#77337 i18n(ko): Add remaining Triggers translations](https://github.com/apache/airflow/pull/77337) — 🟣 merged (2026-11-19)
 - [#77082 i18n(ko): add missing translation in dags.json (Nov 14)](https://github.com/apache/airflow/pull/77082) — 🟣 merged (2026-11-14)
 - [#76920 i18n(ko): add missing translaction in common.json (Nov 11)](https://github.com/apache/airflow/pull/76920) — 🟣 merged (2026-11-11)
 - [#76675 i18n(ko): Add missing dag and dashboard translations (Nov 7)](https://github.com/apache/airflow/pull/76675) — 🟣 merged (2026-11-07)
